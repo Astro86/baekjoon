@@ -1,13 +1,16 @@
 # BFS
 
-1. [1012](1012/) - 유기농 배추 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1012)
-   ![](1012/1012_score.png)
+#### 1. [1012](1012/) - 유기농 배추 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1012)
 
-2. [1600](1600/) - 말이 되고픈 원숭이 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1600)
-   ![](1600/1600_score.png)
+![](1012/1012_score.png)
 
-3. [1707](1707/) - 이분 그래프 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1707)
-   ![](1707/1707_score.png)
+#### 2. [1600](1600/) - 말이 되고픈 원숭이 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1600)
+
+![](1600/1600_score.png)
+
+#### 3. [1707](1707/) - 이분 그래프 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1707)
+
+![](1707/1707_score.png)
 
 4. [1726](1726/) - 로봇 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1726)
    ![](1726/1726_score.png)
