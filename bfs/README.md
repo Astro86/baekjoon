@@ -74,6 +74,8 @@
 
 ### 19. [5014](5014/) - 스타트와 링크 &nbsp;&nbsp; (https://www.acmicpc.net/problem/5014)
 
+![](5014/5014_score.png)
+
 ### 20. [5213](5213/) - 과외맨 &nbsp;&nbsp; (https://www.acmicpc.net/problem/5213)
 
 ![](5213/5213_score.png)
