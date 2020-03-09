@@ -84,38 +84,46 @@
 
 ![](5427/5427_score.png)
 
-### 22. [7576](7576/) - 토마토 &nbsp;&nbsp; (https://www.acmicpc.net/problem/7576)
+### 22. [6593](6593/) - 상범 빌딩 &nbsp;&nbsp; (https://www.acmicpc.net/problem/5427)
+
+![](6593/6593_score.png)
+
+### 23. [7576](7576/) - 토마토 &nbsp;&nbsp; (https://www.acmicpc.net/problem/7576)
 
 ![](7576/7576_score.png)
 
-### 23. [9019](9019/) - DSLR &nbsp;&nbsp; (https://www.acmicpc.net/problem/9019)
+### 24. [9019](9019/) - DSLR &nbsp;&nbsp; (https://www.acmicpc.net/problem/9019)
 
 ![](9019/9019_score.png)
 
-### 24. [9205](9205/) - 맥주 마시면서 걸어가기 &nbsp;&nbsp; (https://www.acmicpc.net/problem/9205)
+### 25. [9205](9205/) - 맥주 마시면서 걸어가기 &nbsp;&nbsp; (https://www.acmicpc.net/problem/9205)
 
 ![](9205/9205_score.png)
 
-### 25. [9372](9372/) - 상근이의 여행 &nbsp;&nbsp; (https://www.acmicpc.net/problem/9372)
+### 26. [9372](9372/) - 상근이의 여행 &nbsp;&nbsp; (https://www.acmicpc.net/problem/9372)
 
 ![](9372/9372_score.png)
 
-### 26. [12886](12886/) - 돌 그룹 &nbsp;&nbsp; (https://www.acmicpc.net/problem/12886)
+### 27. [12886](12886/) - 돌 그룹 &nbsp;&nbsp; (https://www.acmicpc.net/problem/12886)
 
 ![](12886/12886_score.png)
 
-### 27. [15653](15653/) - 구슬 탈출4 &nbsp;&nbsp; (https://www.acmicpc.net/problem/15653)
+### 28. [15653](15653/) - 구슬 탈출4 &nbsp;&nbsp; (https://www.acmicpc.net/problem/15653)
 
 ![](15653/15653_score.png)
 
-### 28. [16236](16236/) - 아기 상어 &nbsp;&nbsp; (https://www.acmicpc.net/problem/16236)
+### 29. [16236](16236/) - 아기 상어 &nbsp;&nbsp; (https://www.acmicpc.net/problem/16236)
 
 ![](16236/16236_score.png)
 
-### 29. [16397](16397/) - 탈출 &nbsp;&nbsp; (https://www.acmicpc.net/problem/16397)
+### 30. [16397](16397/) - 탈출 &nbsp;&nbsp; (https://www.acmicpc.net/problem/16397)
 
 ![](16397/16397_score.png)
 
-### 30. [17836](17836/) - 공주님을 구해라 &nbsp;&nbsp; (https://www.acmicpc.net/problem/17836)
+### 31. [17471](17471/) - 게리맨더링 &nbsp;&nbsp; (https://www.acmicpc.net/problem/17471)
+
+![](17471/17471_score.png)
+
+### 32. [17836](17836/) - 공주님을 구해라 &nbsp;&nbsp; (https://www.acmicpc.net/problem/17836)
 
 ![](17836/17836_score.png)
