@@ -50,7 +50,7 @@ if (map[cntY][cntX] == 1 && colorMap[cntY][cntX] != area) {
     continue;
 }
 ```
-`cntNum-1`로 값들을 비교한 다음에 기존의 다리의 길이와 비교 할때 cntNum으로 해버려서 틀렸다.
+`cntNum-1`이 실제 다리 길이 인데, 기존의 다리의 길이와 비교 할때 `cntNum`으로 해버려서 틀렸다.
 
 > 햇깔리기 싫으면 따로 변수를 선언해서 문제를 접근하자.
 
