@@ -100,6 +100,7 @@ void color_bfs(int y, int x, int color) {
 
 - `map[y][x]` : 처음 주어진 지도   
 - `colorMap[y][x]` : 색칠된 지도  
+
 `BFS`를 이용하여 색칠하기를 진행 해주었다.
 
 
