@@ -2,7 +2,7 @@
 
 ## 3/19(목) - 18일차
 
-> 오전(백준)
+> 오전 (백준) [링크](https://www.acmicpc.net/group/practice/7456/24)
 
 - [ ] 에너지 모으기 &nbsp;&nbsp; (https://www.acmicpc.net/problem/16198)
 - [ ] 구간 나누기 2 &nbsp;&nbsp; (https://www.acmicpc.net/problem/13397)
@@ -10,7 +10,7 @@
 - [ ] 전구와 스위치 &nbsp;&nbsp; (https://www.acmicpc.net/problem/2138)
 - [ ] 연산자 끼워넣기(2) &nbsp;&nbsp; (https://www.acmicpc.net/problem/15658)
 
-> 오후(백준)
+> 오후 (백준) [링크](https://www.acmicpc.net/group/practice/7456/25)
 
 - [ ] 파이프 옮기기 2 &nbsp;&nbsp; (https://www.acmicpc.net/problem/17069)
 - [ ] 텀 프로젝트 &nbsp;&nbsp; (https://www.acmicpc.net/problem/9466)
@@ -19,7 +19,7 @@
 
 ## 3/18(수) - 17일차
 
-> 오전 (백준)
+> 오전 (백준) [링크](https://www.acmicpc.net/group/practice/7456/22)
 
 - [ ] 보물섬 &nbsp;&nbsp; (https://www.acmicpc.net/problem/2589)
 - [ ] 로봇 프로젝트 &nbsp;&nbsp; (https://www.acmicpc.net/problem/3649)
@@ -27,7 +27,7 @@
 - [ ] 나무 심기 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1280)
 - [ ] 트로피 진열 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1668)
 
-> 오후
+> 오후 (백준) [링크](ttps://www.acmicpc.net/group/practice/7456/23)
 
 - [ ] 빠른 A+B &nbsp;&nbsp; (https://www.acmicpc.net/problem/15552)
 - [ ] 알파벳 찾기 &nbsp;&nbsp; (https://www.acmicpc.net/problem/10809)
@@ -48,7 +48,7 @@
 > 오전
 > 단체지각....
 
-> 오후 (백준)
+> 오후 (백준) [링크](https://www.acmicpc.net/group/practice/7456/21)
 
 - [ ] 개똥벌레 &nbsp;&nbsp; (https://www.acmicpc.net/problem/3020)
 - [ ] 병든나이트 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1783)
@@ -56,7 +56,6 @@
 - [ ] 돌멩이 제거 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1867)
 - [ ] 비숍 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1799)
 - [ ] 파티 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1238)
-      \*\*
 
 ## 3/16(월) - 15일차
 
@@ -68,7 +67,7 @@
 - [ ] [아바바바][(8840)](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AW4Z8x2KAL8DFAQ7&categoryId=AW4Z8x2KAL8DFAQ7&categoryType=CODE)
 - [ ] [덧셈 문제][(8771)](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AW3R9ga6F9wDFATy&categoryId=AW3R9ga6F9wDFATy&categoryType=CODE)
 
-> 오후(백준)
+> 오후 (백준) [링크](https://www.acmicpc.net/group/practice/7456/20)
 
 - [ ] 거북이 &nbsp;&nbsp; (https://www.acmicpc.net/problem/2959)
 - [ ] 후위 표기식 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1918)
@@ -79,18 +78,18 @@
 
 ## 3/13(금) - 14일차
 
-> 오후(삼성)
+> 오후 (백준) [링크](https://www.acmicpc.net/group/practice/7456/17)
 
-- [ ] 베스트 셀러
-- [ ] X보다 작은 수
-- [ ] 롤 케이크
-- [ ] 기타줄
-- [ ] 잃어버린 괄호
-- [ ] ZOAC
+- [ ] 베스트 셀러 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1302)
+- [ ] X보다 작은 수 &nbsp;&nbsp; (https://www.acmicpc.net/problem/10871)
+- [ ] 롤 케이크 &nbsp;&nbsp; (https://www.acmicpc.net/problem/3985)
+- [ ] 기타줄 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1049)
+- [ ] 잃어버린 괄호 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1541)
+- [ ] ZOAC &nbsp;&nbsp; (https://www.acmicpc.net/problem/16719)
 
 ## 3/12(목) - 13일차
 
-> 오전 (백준)
+> 오전 (백준) [링크](https://www.acmicpc.net/group/practice/7456/16)
 
 - [ ] 크로아티아 알파벳 [(2941)](https://www.acmicpc.net/problem/2941)
 - [ ] 카이사르 암호 [(5598)](https://www.acmicpc.net/problem/5598)
