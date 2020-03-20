@@ -1,5 +1,16 @@
 # 코딩 스터디 모임
 
+## 3/20(금) - 19일차
+> 오전(백준) - [링크](https://www.acmicpc.net/group/practice/7456/26)
+
+- [ ] 데이트  &nbsp;&nbsp; (https://www.acmicpc.net/problem/1296)
+- [ ] 최단경로  &nbsp;&nbsp; (https://www.acmicpc.net/problem/1753)
+- [ ] 이진 탐색 트리  &nbsp;&nbsp; (https://www.acmicpc.net/problem/5639)
+- [ ] 찍기  &nbsp;&nbsp; (https://www.acmicpc.net/problem/2966)
+- [ ] 1학년 &nbsp;&nbsp; (https://www.acmicpc.net/problem/5557)
+
+
+
 ## 3/19(목) - 18일차
 
 > 오전 (백준) [링크](https://www.acmicpc.net/group/practice/7456/24)
