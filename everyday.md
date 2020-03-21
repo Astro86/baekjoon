@@ -3,9 +3,9 @@
 ## 3/20(금) - 19일차
 > 오전(백준) - [링크](https://www.acmicpc.net/group/practice/7456/26)
 
-- [ ] 데이트  &nbsp;&nbsp; (https://www.acmicpc.net/problem/1296)
-- [ ] 최단경로  &nbsp;&nbsp; (https://www.acmicpc.net/problem/1753)
-- [ ] 이진 탐색 트리  &nbsp;&nbsp; (https://www.acmicpc.net/problem/5639)
+- [x] 데이트  &nbsp;&nbsp; (https://www.acmicpc.net/problem/1296)
+- [x] 최단경로  &nbsp;&nbsp; (https://www.acmicpc.net/problem/1753)
+- [x] 이진 탐색 트리  &nbsp;&nbsp; (https://www.acmicpc.net/problem/5639)
 - [ ] 찍기  &nbsp;&nbsp; (https://www.acmicpc.net/problem/2966)
 - [ ] 1학년 &nbsp;&nbsp; (https://www.acmicpc.net/problem/5557)
 
@@ -15,17 +15,17 @@
 
 > 오전 (백준) [링크](https://www.acmicpc.net/group/practice/7456/24)
 
-- [ ] 에너지 모으기 &nbsp;&nbsp; (https://www.acmicpc.net/problem/16198)
+- [x] 에너지 모으기 &nbsp;&nbsp; (https://www.acmicpc.net/problem/16198)
 - [ ] 구간 나누기 2 &nbsp;&nbsp; (https://www.acmicpc.net/problem/13397)
-- [ ] 벽 부수고 이동하기 3 &nbsp;&nbsp; (https://www.acmicpc.net/problem/16933)
+- [x] 벽 부수고 이동하기 3 &nbsp;&nbsp; (https://www.acmicpc.net/problem/16933)
 - [ ] 전구와 스위치 &nbsp;&nbsp; (https://www.acmicpc.net/problem/2138)
 - [ ] 연산자 끼워넣기(2) &nbsp;&nbsp; (https://www.acmicpc.net/problem/15658)
 
 > 오후 (백준) [링크](https://www.acmicpc.net/group/practice/7456/25)
 
-- [ ] 파이프 옮기기 2 &nbsp;&nbsp; (https://www.acmicpc.net/problem/17069)
+- [x] 파이프 옮기기 2 &nbsp;&nbsp; (https://www.acmicpc.net/problem/17069)
 - [ ] 텀 프로젝트 &nbsp;&nbsp; (https://www.acmicpc.net/problem/9466)
-- [ ] Baaaaaaaaaduk2 (Easy) &nbsp;&nbsp; (https://www.acmicpc.net/problem/16988)
+- [x] Baaaaaaaaaduk2 (Easy) &nbsp;&nbsp; (https://www.acmicpc.net/problem/16988)
 - [ ] 확장게임 &nbsp;&nbsp; (https://www.acmicpc.net/problem/16920)
 
 ## 3/18(수) - 17일차
@@ -34,7 +34,7 @@
 
 - [ ] 보물섬 &nbsp;&nbsp; (https://www.acmicpc.net/problem/2589)
 - [ ] 로봇 프로젝트 &nbsp;&nbsp; (https://www.acmicpc.net/problem/3649)
-- [ ] 킹 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1063)
+- [x] 킹 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1063)
 - [ ] 나무 심기 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1280)
 - [ ] 트로피 진열 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1668)
 
