@@ -6,7 +6,7 @@
 - [x] 데이트  &nbsp;&nbsp; (https://www.acmicpc.net/problem/1296)
 - [x] 최단경로  &nbsp;&nbsp; (https://www.acmicpc.net/problem/1753)
 - [x] 이진 탐색 트리  &nbsp;&nbsp; (https://www.acmicpc.net/problem/5639)
-- [ ] 찍기  &nbsp;&nbsp; (https://www.acmicpc.net/problem/2966)
+- [x] 찍기  &nbsp;&nbsp; (https://www.acmicpc.net/problem/2966)
 - [ ] 1학년 &nbsp;&nbsp; (https://www.acmicpc.net/problem/5557)
 
 
@@ -61,11 +61,11 @@
 
 > 오후 (백준) [링크](https://www.acmicpc.net/group/practice/7456/21)
 
-- [ ] 개똥벌레 &nbsp;&nbsp; (https://www.acmicpc.net/problem/3020)
+- [x] 개똥벌레 &nbsp;&nbsp; (https://www.acmicpc.net/problem/3020)
 - [ ] 병든나이트 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1783)
 - [ ] 순열의 순서 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1722)
 - [ ] 돌멩이 제거 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1867)
-- [ ] 비숍 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1799)
+- [x] 비숍 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1799)
 - [ ] 파티 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1238)
 
 ## 3/16(월) - 15일차
@@ -80,10 +80,10 @@
 
 > 오후 (백준) [링크](https://www.acmicpc.net/group/practice/7456/20)
 
-- [ ] 거북이 &nbsp;&nbsp; (https://www.acmicpc.net/problem/2959)
+- [x] 거북이 &nbsp;&nbsp; (https://www.acmicpc.net/problem/2959)
 - [ ] 후위 표기식 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1918)
 - [ ] 회사에 있는 사람 &nbsp;&nbsp; (https://www.acmicpc.net/problem/7785)
-- [ ] Z &nbsp;&nbsp; (https://www.acmicpc.net/problem/1074)
+- [x] Z &nbsp;&nbsp; (https://www.acmicpc.net/problem/1074)
 - [ ] 궁금한 민호 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1507)
 - [ ] 트리의 지름 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1167)
 
@@ -91,10 +91,10 @@
 
 > 오후 (백준) [링크](https://www.acmicpc.net/group/practice/7456/17)
 
-- [ ] 베스트 셀러 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1302)
-- [ ] X보다 작은 수 &nbsp;&nbsp; (https://www.acmicpc.net/problem/10871)
-- [ ] 롤 케이크 &nbsp;&nbsp; (https://www.acmicpc.net/problem/3985)
-- [ ] 기타줄 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1049)
+- [x] 베스트 셀러 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1302)
+- [x] X보다 작은 수 &nbsp;&nbsp; (https://www.acmicpc.net/problem/10871)
+- [x] 롤 케이크 &nbsp;&nbsp; (https://www.acmicpc.net/problem/3985)
+- [x] 기타줄 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1049)
 - [ ] 잃어버린 괄호 &nbsp;&nbsp; (https://www.acmicpc.net/problem/1541)
 - [ ] ZOAC &nbsp;&nbsp; (https://www.acmicpc.net/problem/16719)
 
@@ -102,10 +102,10 @@
 
 > 오전 (백준) [링크](https://www.acmicpc.net/group/practice/7456/16)
 
-- [ ] 크로아티아 알파벳 [(2941)](https://www.acmicpc.net/problem/2941)
-- [ ] 카이사르 암호 [(5598)](https://www.acmicpc.net/problem/5598)
+- [x] 크로아티아 알파벳 [(2941)](https://www.acmicpc.net/problem/2941)
+- [x] 카이사르 암호 [(5598)](https://www.acmicpc.net/problem/5598)
 - [ ] 부등호 [(2529)](https://www.acmicpc.net/problem/2529)
-- [ ] Transactions [(2975)](https://www.acmicpc.net/problem/2975)
+- [x] Transactions [(2975)](https://www.acmicpc.net/problem/2975)
 - [ ] 숫자 카드 [(10815)](https://www.acmicpc.net/problem/10815)
 - [ ] 점수 계산 [(2822)](https://www.acmicpc.net/problem/2822)
 
@@ -161,8 +161,8 @@
 
 > 오후 (백준)
 
-- [ ] 게리맨더링 (https://www.acmicpc.net/problem/17471)
-- [ ] [게리맨더링 2](/baekjoon/17779%20게리맨더링%202) (https://www.acmicpc.net/problem/17779)
+- [x] 게리맨더링 (https://www.acmicpc.net/problem/17471)
+- [x] [게리맨더링 2](/baekjoon/17779%20게리맨더링%202) (https://www.acmicpc.net/problem/17779)
 - [ ] 나무 재테크 (https://www.acmicpc.net/problem/16235)
 
 ## 3/6(금) - 9일차
