@@ -15,11 +15,14 @@
 
 > 오전 (백준) [링크](https://www.acmicpc.net/group/practice/7456/24)
 
-- [x] 에너지 모으기 &nbsp;&nbsp; (https://www.acmicpc.net/problem/16198)
-- [ ] 구간 나누기 2 &nbsp;&nbsp; (https://www.acmicpc.net/problem/13397)
-- [x] 벽 부수고 이동하기 3 &nbsp;&nbsp; (https://www.acmicpc.net/problem/16933)
-- [ ] 전구와 스위치 &nbsp;&nbsp; (https://www.acmicpc.net/problem/2138)
-- [ ] 연산자 끼워넣기(2) &nbsp;&nbsp; (https://www.acmicpc.net/problem/15658)
+|     | 문제           | 링크                                      | 난이도 |
+| --- | ------------ | --------------------------------------- | --- |
+|     | 에너지 모으기      | (https://www.acmicpc.net/problem/16198) | 쉬움  |
+|     | 구간 나누기 2     | (https://www.acmicpc.net/problem/13397) |     |
+|     | 벽 부수고 이동하기 3 | (https://www.acmicpc.net/problem/16933) |     |
+|     | 전구와 스위치      | (https://www.acmicpc.net/problem/2138)  |     |
+|     | 연산자 끼워넣기(2)  | (https://www.acmicpc.net/problem/15658) |     |
+
 
 > 오후 (백준) [링크](https://www.acmicpc.net/group/practice/7456/25)
 
