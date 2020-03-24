@@ -1,8 +1,8 @@
 # BFS
 | 문제              | 이름           | 링크                                    | 정리여부 | 비고  |
 | --------------- | ------------ | ------------------------------------- | ---- | --- |
-| 1012            | 유기농 배추       | https://www.acmicpc.net/problem/1012  |      |     |
-| 1600            | 말이 되고픈 원숭이   | https://www.acmicpc.net/problem/1600  |      |     |
+| [1012](1012/)   | 유기농 배추       | https://www.acmicpc.net/problem/1012  |      |     |
+| [1600](1600/)   | 말이 되고픈 원숭이   | https://www.acmicpc.net/problem/1600  |      |     |
 | [1707](1707/)   | 이분 그래프       | https://www.acmicpc.net/problem/1707  |      |     |
 | [1726](1726/)   | 로봇           | https://www.acmicpc.net/problem/1726  |      |     |
 | [1939](1939/)   | 중량제한         | https://www.acmicpc.net/problem/1939  |      |     |
