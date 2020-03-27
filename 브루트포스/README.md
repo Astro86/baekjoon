@@ -5,7 +5,7 @@
 | [1051](1051/)   | 숫자 직사각형          | https://www.acmicpc.net/problem/1051  |      |     |
 | [1065](1065/)   | 한수               | https://www.acmicpc.net/problem/1065  |      |     |
 | [1182](1182/)   | 부분수열의 합          | https://www.acmicpc.net/problem/1182  |      |     |
-| [1436](1436/)   | 영화감독슘           | https://www.acmicpc.net/problem/1436  |      |     |
+| [1436](1436/)   | 영화감독 슘           | https://www.acmicpc.net/problem/1436  |      |     |
 | [1748](1748/)   | 수 이어쓰기1          | https://www.acmicpc.net/problem/1748  |      |     |
 | [2231]((2231/)) | 분해 합             | https://www.acmicpc.net/problem/2231  |      |     |
 | [2309](2309/)   | 일곱 난쟁이           | https://www.acmicpc.net/problem/2309  |      |     |
