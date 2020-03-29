@@ -25,7 +25,7 @@
 | [15686](15686/) | 치킨 배달            | https://www.acmicpc.net/problem/14686 |      |     |
 | [16198](16198/) | 에너지 모으기          | https://www.acmicpc.net/problem/16198 |      |     |
 | [17127](17127/) | 벚꽃이 정보섬에 피어난 이유  | https://www.acmicpc.net/problem/17127 |      |     |
-| [17142](17142/) | 연구소 3            | https://www.acmicpc.net/problem/17127 |      |     |
+| [17142](17142/) | 연구소 3            | https://www.acmicpc.net/problem/17142 |      |     |
 | [17779](17779/) | 게리멘더링2           | https://www.acmicpc.net/problem/17779 |      |     |
 
 
