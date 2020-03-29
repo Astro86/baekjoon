@@ -5,8 +5,8 @@ using namespace std;
 int N, M;
 char map[11][11];
 char check[11][11];
-int dx[4] = { 1, 0, -1, 0 };
-int dy[4] = { 0, 1, 0, -1 };
+int dx[4] = {1, 0, -1, 0};
+int dy[4] = {0, 1, 0, -1};
 
 struct Beads {
     int redX;
@@ -19,8 +19,7 @@ bool visited[11][11][11][11];
 
 queue<Beads> q;
 
-void moveBead(int& y, int& x, int d)
-{
+void moveBead(int& y, int& x, int d) {
     while (1) {
         x += dx[d];
         y += dy[d];
@@ -35,8 +34,7 @@ void moveBead(int& y, int& x, int d)
     }
 }
 
-int main(void)
-{
+int main(void) {
     cin >> N >> M;
 
     Beads beads;
@@ -122,7 +120,7 @@ int main(void)
             }
 
             if (!visited[rnx][rny][bnx][bny]) {
-                Beads temp = { rnx, rny, bnx, bny, count + 1 };
+                Beads temp = {rnx, rny, bnx, bny, count + 1};
                 q.push(temp);
                 visited[rnx][rny][bnx][bny] = true;
             }
