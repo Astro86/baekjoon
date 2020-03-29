@@ -29,7 +29,6 @@
 | [9205](9205/)   | 맥주 마시면서 걸어가기 | https://www.acmicpc.net/problem/9205  |
 | [9372](9372/)   | 상근이의 여행      | https://www.acmicpc.net/problem/9372  |
 | [12886](12886/) | 돌 그룹         | https://www.acmicpc.net/problem/12886 |
-| [15653](15653/) | 구슬 탈출4       | https://www.acmicpc.net/problem/15653 |
 | [16236](16236/) | 아기 상어        | https://www.acmicpc.net/problem/16236 |
 | [16397](16397/) | 탈출           | https://www.acmicpc.net/problem/16397 |
 | [17471](17471/) | 게리맨더링        | https://www.acmicpc.net/problem/17471 |
@@ -148,10 +147,6 @@
 ### [12886](12886/) - 돌 그룹 &nbsp;&nbsp; (https://www.acmicpc.net/problem/12886)
 
 ![](12886/12886_score.png)
-
-### [15653](15653/) - 구슬 탈출4 &nbsp;&nbsp; (https://www.acmicpc.net/problem/15653)
-
-![](15653/15653_score.png)
 
 ### [16236](16236/) - 아기 상어 &nbsp;&nbsp; (https://www.acmicpc.net/problem/16236)
 
