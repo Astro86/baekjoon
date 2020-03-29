@@ -16,7 +16,7 @@
 | [12100](12100/) | 2048(Easy)       | https://www.acmicpc.net/problem/12100 |      |     |
 | [12738](12738/) | 가장 긴 증가하는 부분 수열3 | https://www.acmicpc.net/problem/12738 |      |     |
 | [13460](13460/) | 구슬 탈출2           | https://www.acmicpc.net/problem/13460 |      |     |
-| [14502](14502/) | 연구소              | https://www.acmicpc.net/problem/      |      |     |
+| [14502](14502/) | 연구소              | https://www.acmicpc.net/problem/14502 |      |     |
 | [14888](14888/) | 연산자 끼워넣기         | https://www.acmicpc.net/problem/14888 |      |     |
 | [14889](14889/) | 스타크와 링크          | https://www.acmicpc.net/problem/14889 |      |     |
 | [15653](15653/) | 구슬 탈출4           | https://www.acmicpc.net/problem/15653 |
