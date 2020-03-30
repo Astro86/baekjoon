@@ -1,7 +1,9 @@
-for (int i = 1; i <= N; i++) {
-                            for (int j = 1; j <= N; j++) {
-                                cout << color[i][j] << " ";
-                            }
-                            cout << endl;
-                        }
-                        cout << endl;
+
+    // // 4에 대해 색칠해주기
+    // for (int i = y + d2 + 1; i <= N; i++) {
+    //     for (int j = x + d2; j <= N; j++) {
+    //         if (color[i][j] == 0) {
+    //             color[i][j] = 4;
+    //         }
+    //     }
+    // }
