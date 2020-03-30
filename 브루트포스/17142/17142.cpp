@@ -80,10 +80,7 @@ void bfs(int index) {
             int nx = cntX + dx[i];
 
             if (0 <= ny && ny < lab_size && 0 <= nx && nx < lab_size) {
-                if (check[ny][nx] == false && lab[ny][nx] == 0) {
-                    check[ny][nx] = true;
-                    q.push({ny, nx, cntNum + 1});
-                } else if (check[ny][nx] == false && lab[ny][nx] == 2) {
+                if (check[ny][nx] == false && lab[ny][nx] != 1) {
                     check[ny][nx] = true;
                     q.push({ny, nx, cntNum + 1});
                 }
