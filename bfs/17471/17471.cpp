@@ -10,8 +10,6 @@ int area[11];
 int map[11][11];
 bool check[11];
 int minDist = INF;
-// vector<int> v1;
-// vector<int> v2;
 
 bool bfs(vector<int>& group) {
     vector<int> check(N + 1, true);
@@ -42,7 +40,6 @@ bool bfs(vector<int>& group) {
             allTrue = false;
         }
     }
-
     return allTrue;
 }
 
@@ -112,7 +109,6 @@ int main(void) {
     }
 
     for (int i = 1; i <= N / 2; i++) {
-        // cout << i << endl;
         nCr(i, 0);
     }
 

@@ -12,70 +12,74 @@ int map[11][11];
 bool point[11];
 int minDist = INF;
 
+void bfs() {
+    vector<bool> check(N + 1, false);
+    queue<int> q;
+    int start;
+    for (int i = 1; i <= N; i++) {
+        if (point[i] == true) {
+            check[i] = true;
+        } else {
+            start = i;
+        }
+    }
+    q.push(start);
+    check[start] = true;
+
+    while (!q.empty()) {
+        int cnt = q.front();
+        q.pop();
+
+        for (int i = 1; i <= N; i++) {
+            if (map[cnt][i] == 1 && check[i] == false) {
+                check[i] = true;
+                q.push(i);
+            }
+        }
+    }
+
+    bool isPass = true;
+    for (int i = 1; i <= N; i++) {
+        if (check[i] == false) {
+            isPass = false;
+        }
+    }
+
+    if (!isPass) {
+        return;
+    }
+
+    int sumTrue = 0;
+    int sumFalse = 0;
+    for (int i = 1; i <= N; i++) {
+        if (point[i] == true) {
+            sumTrue += section[i];
+        } else {
+            sumFalse += section[i];
+        }
+    }
+
+    if (minDist > abs(sumTrue - sumFalse)) {
+        for (int i = 1; i <= N; i++) {
+            if (point[i] == true) {
+                cout << i << " ";
+            }
+        }
+        cout << endl;
+        for (int i = 1; i <= N; i++) {
+            if (point[i] == false) {
+                cout << i << " ";
+            }
+        }
+        cout << endl;
+
+        minDist = abs(sumTrue - sumFalse);
+    }
+}
+
 void choose(int node, int num, int cnt) {
     if (num == cnt) {
-        vector<bool> check(N + 1, false);
-        queue<int> q;
-        int start;
-        for (int i = 1; i <= N; i++) {
-            if (point[i] == true) {
-                check[i] = true;
-            } else {
-                start = i;
-            }
-        }
-        q.push(start);
-        check[start] = true;
-
-        while (!q.empty()) {
-            int cnt = q.front();
-            q.pop();
-
-            for (int i = 1; i <= N; i++) {
-                if (map[cnt][i] == 1 && check[i] == false) {
-                    check[i] = true;
-                    q.push(i);
-                }
-            }
-        }
-
-        bool isPass = true;
-        for (int i = 1; i <= N; i++) {
-            if (check[i] == false) {
-                isPass = false;
-            }
-        }
-
-        if (!isPass) {
-            return;
-        }
-
-        int sumTrue = 0;
-        int sumFalse = 0;
-        for (int i = 1; i <= N; i++) {
-            if (point[i] == true) {
-                sumTrue += section[i];
-            } else {
-                sumFalse += section[i];
-            }
-        }
-
-        if (minDist > abs(sumTrue - sumFalse)) {
-            for (int i = 1; i <= N; i++) {
-                if (point[i] == true) {
-                    cout << i << " ";
-                }
-            }
-            cout << endl;
-            for (int i = 1; i <= N; i++) {
-                if (point[i] == false) {
-                    cout << i << " ";
-                }
-            }
-            cout << endl;
-
-            minDist = abs(sumTrue - sumFalse);
-        }
+        bfs();
         return;
     }
 
