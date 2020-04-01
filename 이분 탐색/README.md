@@ -11,3 +11,11 @@
 | [2869](2869/)   | 달팽이는 올라가고 싶다 | https://www.acmicpc.net/problem/2869  |          |                     |
 | [10815](10815/) | 숫자카드               | https://www.acmicpc.net/problem/10815 |          |                     |
 | [10816](10816/) | 숫자카드2              | https://www.acmicpc.net/problem/10816 |          |                     |
+
+## [2343](2343/) - 보석상자
+
+![](2343/2343_score.png)
+
+## [2792](2792/) - 기타레슨
+
+![](2792/2792_score.png)
