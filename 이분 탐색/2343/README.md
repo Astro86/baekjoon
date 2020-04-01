@@ -55,7 +55,11 @@ while (start <= finish) {
 ## 이분 탐색 조건식
 
 ```cpp
-for (int i = 0; i < N; i++) {
+bool cmp(int mid) {
+    int cntM = 1;
+    int sum = 0;
+
+    for (int i = 0; i < N; i++) {
         if (v[i] > mid) {
             return true;
         }
@@ -66,6 +70,9 @@ for (int i = 0; i < N; i++) {
             cntM++;
         }
     }
+
+    return cntM > M;
+}
 ```
 
 1. 주어진 레슨들을 더해가면서 `mid`값보다 커지면 블루레이 갯수를 증가시키고, 해당 값부터 시작해 다시 더해간다.
