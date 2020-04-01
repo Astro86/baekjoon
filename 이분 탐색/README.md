@@ -9,6 +9,7 @@
 | [2792](2792/)   | 보석상자               | https://www.acmicpc.net/problem/2792  |    O     | 중요! 다시 풀어보기 |
 | [2805](2805/)   | 나무자르기             | https://www.acmicpc.net/problem/2805  |          |                     |
 | [2869](2869/)   | 달팽이는 올라가고 싶다 | https://www.acmicpc.net/problem/2869  |          |                     |
+| [3020](3020/)   | 개똥벌레               | https://www.acmicpc.net/problem/3020  |          |                     |
 | [10815](10815/) | 숫자카드               | https://www.acmicpc.net/problem/10815 |          |                     |
 | [10816](10816/) | 숫자카드2              | https://www.acmicpc.net/problem/10816 |          |                     |
 
