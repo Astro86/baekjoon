@@ -6,6 +6,7 @@
 | [1707](1707/)   | 이분 그래프       | https://www.acmicpc.net/problem/1707  |       |         |
 | [1726](1726/)   | 로봇           | https://www.acmicpc.net/problem/1726  |       |         |
 | [1939](1939/)   | 중량제한         | https://www.acmicpc.net/problem/1939  |       |         |
+| ![1953](1953/)  | 팀 배분         | https://www.acmicpc.net/problem/1953  |   O   | 이분 그래프  |
 | [1963](1963/)   | 소수 경로        | https://www.acmicpc.net/problem/1963  |
 | [1967](1967/)   | 트리의 지름       | https://www.acmicpc.net/problem/1967  |
 | [2146](2146/)   | 다리 만들기       | https://www.acmicpc.net/problem/2146  |
