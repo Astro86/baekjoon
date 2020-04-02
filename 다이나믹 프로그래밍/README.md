@@ -1,7 +1,7 @@
 # 다이나믹 프로그래밍
 
 | 문제            | 이름                        | 링크                                  | 정리여부 | 비고 |
-| --------------- | --------------------------- | ------------------------------------- | -------- | ---- |
+| --------------- | --------------------------- | ------------------------------------- | :------: | ---- |
 | [1003](1003/)   | 피보나치 함수               | https://www.acmicpc.net/problem/1003  |          |      |
 | [1010](1010/)   | 다리놓기                    | https://www.acmicpc.net/problem/1010  |          |      |
 | [1149](1149/)   | RGB거리                     | https://www.acmicpc.net/problem/1149  |          |      |
@@ -16,7 +16,7 @@
 | [2294](2294/)   | 동전 2                      | https://www.acmicpc.net/problem/1003  |          |      |
 | [2352](2352/)   | 반도체 설계                 | https://www.acmicpc.net/problem/2352  |          |      |
 | [2579](2579/)   | 계단 오르기                 | https://www.acmicpc.net/problem/2579  |          |      |
-| [2631](2631/)   | 줄 세우기                   | https://www.acmicpc.net/problem/2631  |          |      |
+| [2631](2631/)   | 줄 세우기                   | https://www.acmicpc.net/problem/2631  |    O     | LIS  |
 | [2748](2748/)   | 피보나치 수2                | https://www.acmicpc.net/problem/2748  |          |      |
 | [9095](9095/)   | 1,2,3 더하기                | https://www.acmicpc.net/problem/9095  |          |      |
 | [9461](9461/)   | 파도반 수열                 | https://www.acmicpc.net/problem/9461  |          |      |
