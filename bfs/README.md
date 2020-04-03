@@ -1,12 +1,12 @@
 # BFS
-| 문제              | 이름           | 링크                                    | 정리여부  | 비고      |
-| --------------- | ------------ | ------------------------------------- | :---: | ------- |
-| [1012](1012/)   | 유기농 배추       | https://www.acmicpc.net/problem/1012  |       |         |
-| [1600](1600/)   | 말이 되고픈 원숭이   | https://www.acmicpc.net/problem/1600  |       |         |
-| [1707](1707/)   | 이분 그래프       | https://www.acmicpc.net/problem/1707  |       |         |
-| [1726](1726/)   | 로봇           | https://www.acmicpc.net/problem/1726  |       |         |
-| [1939](1939/)   | 중량제한         | https://www.acmicpc.net/problem/1939  |       |         |
-| [1953](1953/)   | 팀 배분         | https://www.acmicpc.net/problem/1953  |   O   | 이분 그래프  |
+| 문제              | 이름           | 링크                                    | 정리여부  |       비고        |
+| --------------- | ------------ | ------------------------------------- | :---: | :-------------: |
+| [1012](1012/)   | 유기농 배추       | https://www.acmicpc.net/problem/1012  |       |                 |
+| [1600](1600/)   | 말이 되고픈 원숭이   | https://www.acmicpc.net/problem/1600  |       |                 |
+| [1707](1707/)   | 이분 그래프       | https://www.acmicpc.net/problem/1707  |       |                 |
+| [1726](1726/)   | 로봇           | https://www.acmicpc.net/problem/1726  |       |                 |
+| [1939](1939/)   | 중량제한         | https://www.acmicpc.net/problem/1939  |       |                 |
+| [1953](1953/)   | 팀 배분         | https://www.acmicpc.net/problem/1953  |   O   |     이분 그래프      |
 | [1963](1963/)   | 소수 경로        | https://www.acmicpc.net/problem/1963  |
 | [1967](1967/)   | 트리의 지름       | https://www.acmicpc.net/problem/1967  |
 | [2146](2146/)   | 다리 만들기       | https://www.acmicpc.net/problem/2146  |
@@ -30,9 +30,9 @@
 | [9205](9205/)   | 맥주 마시면서 걸어가기 | https://www.acmicpc.net/problem/9205  |
 | [9372](9372/)   | 상근이의 여행      | https://www.acmicpc.net/problem/9372  |
 | [12886](12886/) | 돌 그룹         | https://www.acmicpc.net/problem/12886 |
-| [16236](16236/) | 아기 상어        | https://www.acmicpc.net/problem/16236 |
+| [16236](16236/) | 아기 상어        | https://www.acmicpc.net/problem/16236 |   O   | `bfs`를 통해 거리구하기 |
 | [16397](16397/) | 탈출           | https://www.acmicpc.net/problem/16397 |
-| [17471](17471/) | 게리맨더링        | https://www.acmicpc.net/problem/17471 |   O   | 조합, bfs |
+| [17471](17471/) | 게리맨더링        | https://www.acmicpc.net/problem/17471 |   O   |     조합, bfs     |
 | [17836](17836/) | 공주님을 구해라     | https://www.acmicpc.net/problem/17836 |
 
 
