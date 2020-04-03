@@ -1,1 +1,4 @@
-bool check[22][22];
+
+            if (d == INF) {
+                break;
+            }
