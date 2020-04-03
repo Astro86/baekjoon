@@ -257,7 +257,7 @@ int bfs(int y, int x, int fishY, int fishX, int size) {
 ```
 `bfs`를 이용하여 상어와 물고기와의 최단거리를 구해준다. 만약, 최단거리가 존재하지 않을 경우 `INF`값을 반환한다.
 
-
+## 전체 소스 코드
 ```cpp
 #include <algorithm>
 #include <iostream>
