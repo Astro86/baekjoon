@@ -8,8 +8,7 @@ int m;
 int arr[110][110];
 int check[110][110];
 
-int main(void)
-{
+int main(void) {
     cin >> n >> start >> e >> m;
 
     for (int i = 0; i < m; i++) {
@@ -21,7 +20,7 @@ int main(void)
     }
 
     queue<pair<int, int>> q;
-    q.push({ start, 0 });
+    q.push({start, 0});
 
     bool isTrue = false;
     while (!q.empty()) {
@@ -38,7 +37,7 @@ int main(void)
         for (int i = 1; i <= n; i++) {
             if (arr[cnt][i] == 1 && check[cnt][i] == false) {
                 check[cnt][i] = true;
-                q.push({ i, value + 1 });
+                q.push({i, value + 1});
             }
         }
     }
