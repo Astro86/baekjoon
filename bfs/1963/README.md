@@ -1,3 +1,12 @@
+# 백준 1963 - 소수 경로
+
+![](1963.jpeg)
+
+## 채점 현황
+![](1963_score.png)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 #include <queue>
 #include <string>
@@ -57,3 +66,4 @@ int main(void) {
 
     return 0;
 }
+```
