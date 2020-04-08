@@ -1,8 +1,9 @@
 # 백준 2468 - 안전영역
 
-[2468 - 안전영역](https://www.acmicpc.net/problem/2468)
+![](2468.jpeg)
 
-![](2468m.png)
+## 채점 현황
+![](2468_score.png)
 
 ```cpp
 #include <iostream>
@@ -20,19 +21,16 @@ int max_height;
 int max_area = 1;
 int area;
 
-void bfs(int y, int x, int height)
-{
+void bfs(int y, int x, int height) {
     queue<pair<int, int>> q;
     q.push({y, x});
 
-    while (!q.empty())
-    {
+    while (!q.empty()) {
         int y = q.front().first;
         int x = q.front().second;
         q.pop();
 
-        for (int i = 0; i < 4; i++)
-        {
+        for (int i = 0; i < 4; i++) {
             int ny = y + dy[i];
             int nx = x + dx[i];
 
@@ -47,31 +45,25 @@ void bfs(int y, int x, int height)
     }
 }
 
-int main(void)
-{
+int main(void) {
     cin >> n;
 
     for (int i = 0; i < n; i++)
-        for (int j = 0; j < n; j++)
-        {
+        for (int j = 0; j < n; j++) {
             cin >> arr[i][j];
             if (max_height < arr[i][j])
                 max_height = arr[i][j];
         }
 
-    for (int h = 1; h <= 100; h++)
-    {
+    for (int h = 1; h <= 100; h++) {
         area = 0;
         for (int i = 0; i < n; i++)
             for (int j = 0; j < n; j++)
                 check[i][j] = 0;
 
-        for (int i = 0; i < n; i++)
-        {
-            for (int j = 0; j < n; j++)
-            {
-                if (arr[i][j] > h && check[i][j] == 0)
-                {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (arr[i][j] > h && check[i][j] == 0) {
                     bfs(i, j, h);
                     area++;
                 }
