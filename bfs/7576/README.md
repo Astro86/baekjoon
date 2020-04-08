@@ -1,33 +1,11 @@
 # 백준 7576 - 토마토
 
-[7576 - 토마토](https://www.acmicpc.net/problem/7576)
+![](7576.jpeg)
 
-![](7576m.png)
+## 채점 현황
+![](7576_score.png)
 
-### 사용한 dataset들
-
-```cpp
-int box[1001][1001];
-int n, m, day;
-class tomato
-{
-public:
-    int row, col, date;
-
-    tomato(int i, int j, int d)
-    {
-        row = i;
-        col = j;
-        date = d;
-    }
-};
-queue<tomato> q;
-```
-
-tomato class는 행, 열, 일자를 가지고 있다.<br>
-queue에는 tomato class를 넣을 수 있다.
-
-### 상자를 초기화 하는 부분
+## 상자를 초기화 하는 부분
 
 ```cpp
 cin >> m >> n;
@@ -46,11 +24,11 @@ for (int i = 0; i < n; i++)
 ```
 
 입력은 행렬의 형태로 들어오게 된다.
-즉, 행렬의 원소를 한번씩 도는 형태로 값이 들어온다.<br>
-입력 받은 값을 해당 box배열에 대입 시켜준다.<br>
+즉, 행렬의 원소를 한번씩 도는 형태로 값이 들어온다.  
+입력 받은 값을 해당 box배열에 대입 시켜준다.  
 만약, 처음 입력 받은 값이 1일 경우에는 해당 좌표와 함께 경과한 일자 즉, 0을 queue에 함께 넣어준다.
 
-### 주변 부분을 순회하는 부분
+## 주변 부분을 순회하는 부분
 
 ```cpp
 while (!q.empty())
@@ -192,51 +170,6 @@ int main(void)
         int row = cnt.row;
         int col = cnt.col;
         int date = cnt.date;
-
-        // // 오른쪽
-        // if (row + 1 < n)
-        // {
-        //     int con = box[row+1][col];
-        //     if (con == 0)
-        //     {
-        //         box[row+1][col] = 1;
-        //         tomato next(row+1, col, date+1);
-        //         q.push(next);
-        //     }
-        // }
-        // // 왼쪽
-        // if (row - 1 >= 0)
-        // {
-        //     int con = box[row-1][col];
-        //     if (con == 0)
-        //     {
-        //         box[row-1][col] = 1;
-        //         tomato next(row-1, col, date+1);
-        //         q.push(next);
-        //     }
-        // }
-        // // 위
-        // if (col - 1 >= 0)
-        // {
-        //     int con = box[row][col-1];
-        //     if(con == 0)
-        //     {
-        //         box[row][col-1] = 1;
-        //         tomato next(row, col-1, date+1);
-        //         q.push(next);
-        //     }
-        // }
-        // // 아래
-        // if (col + 1 < m)
-        // {
-        //     int con = box[row][col+1];
-        //     if(con == 0)
-        //     {
-        //         box[row][col+1] = 1;
-        //         tomato next(row, col+1, date+1);
-        //         q.push(next);
-        //     }
-        // }
 
         // 오른쪽, 왼쪽, 위, 아래
         int dx[4] = {1, -1, 0,0};
