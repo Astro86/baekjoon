@@ -1,9 +1,12 @@
 # 백준 2606 - 바이러스
 
-[2606 - 바이러스](https://www.acmicpc.net/problem/2606)
+![](2606.jpeg)
 
-![](2606m.png)
+## 채점 현황
 
+![](2606_score.png)
+
+## 전체 소스 코드
 ```cpp
 #include <iostream>
 #include <queue>
@@ -18,21 +21,17 @@ int check[101];
 
 queue<int> q;
 
-void bfs()
-{
+void bfs() {
     check[1] = true;
 
-    while (!q.empty())
-    {
+    while (!q.empty()) {
         int cnt = q.front();
         q.pop();
 
         int edge_num = g[cnt].size();
-        for (int i = 0; i < edge_num; i++)
-        {
+        for (int i = 0; i < edge_num; i++) {
             int node = g[cnt][i];
-            if (check[node] == false)
-            {
+            if (check[node] == false) {
                 check[node] = true;
                 q.push(node);
                 num++;
@@ -41,13 +40,11 @@ void bfs()
     }
 }
 
-int main(void)
-{
+int main(void) {
     cin >> n >> m;
     g = vector<vector<int>>(n + 1);
 
-    for (int i = 0; i < m; i++)
-    {
+    for (int i = 0; i < m; i++) {
         int a, b;
         cin >> a >> b;
 
