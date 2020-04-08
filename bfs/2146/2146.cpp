@@ -7,8 +7,8 @@ int arr[110][110];
 int map[110][110];
 int check[110][110];
 
-int dx[4] = { 1, 0, -1, 0 };
-int dy[4] = { 0, 1, 0, -1 };
+int dx[4] = {1, 0, -1, 0};
+int dy[4] = {0, 1, 0, -1};
 
 int area;
 int minBridge = 1000000000;
@@ -19,11 +19,9 @@ struct Point {
     int level;
 };
 
-void makeMap(int a, int b)
-{
-
+void makeMap(int a, int b) {
     queue<pair<int, int>> q;
-    q.push({ a, b });
+    q.push({a, b});
 
     while (!q.empty()) {
         int y = q.front().first;
@@ -37,15 +35,14 @@ void makeMap(int a, int b)
             if (0 <= ny && ny < N && 0 <= nx && nx < N) {
                 if (arr[ny][nx] == 1 && map[ny][nx] == 0) {
                     map[ny][nx] = area;
-                    q.push({ ny, nx });
+                    q.push({ny, nx});
                 }
             }
         }
     }
 }
 
-void makeBridge(int start)
-{
+void makeBridge(int start) {
     queue<Point> q;
 
     int tempMap[110][110];
@@ -54,7 +51,7 @@ void makeBridge(int start)
             tempMap[i][j] = map[i][j];
 
             if (tempMap[i][j] == start) {
-                q.push({ i, j, 0 });
+                q.push({i, j, 0});
             }
         }
     }
@@ -72,7 +69,7 @@ void makeBridge(int start)
             if (0 <= ny && ny < N && 0 <= nx && nx < N) {
                 if (tempMap[ny][nx] == 0) {
                     tempMap[ny][nx] = start;
-                    q.push({ ny, nx, level + 1 });
+                    q.push({ny, nx, level + 1});
                 } else if (tempMap[ny][nx] != start) {
                     if (minBridge > level) {
                         minBridge = level;
@@ -84,8 +81,7 @@ void makeBridge(int start)
     }
 }
 
-int main(void)
-{
+int main(void) {
     cin >> N;
 
     for (int i = 0; i < N; i++) {
