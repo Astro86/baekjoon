@@ -1,3 +1,13 @@
+# 1707 이분 그래프
+
+![](1707.jpeg)
+
+## 채점 현황
+![](1707_score.png)
+
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -90,3 +100,4 @@ int main(void) {
         }
     }
 }
+```
