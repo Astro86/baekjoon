@@ -1,3 +1,12 @@
+# 백준 5427 - 불
+
+![](5427.jpeg)
+
+## 채점 현황
+![](5427_score.png)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 #include <queue>
 using namespace std;
@@ -107,3 +116,4 @@ int main(void) {
 
     return 0;
 }
+```
