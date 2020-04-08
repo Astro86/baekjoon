@@ -5,8 +5,8 @@ using namespace std;
 int M, N;
 int map[101][101];
 bool check[101][101][4];
-int dx[4] = { 0, 1, -1, 0 };
-int dy[4] = { -1, 0, 0, 1 };
+int dx[4] = {0, 1, -1, 0};
+int dy[4] = {-1, 0, 0, 1};
 // char dir[4] = { 'N', 'E', 'W', 'S' };
 
 struct point {
@@ -15,8 +15,7 @@ struct point {
     int dir;
 };
 
-int main(void)
-{
+int main(void) {
     cin >> M >> N;
 
     for (int i = 1; i <= M; i++) {
@@ -75,11 +74,11 @@ int main(void)
             }
             if (check[y][x][nextR] == false) {
                 check[y][x][nextR] = true;
-                q.push({ y, x, nextR });
+                q.push({y, x, nextR});
             }
             if (check[y][x][nextL] == false) {
                 check[y][x][nextL] = true;
-                q.push({ y, x, nextL });
+                q.push({y, x, nextL});
             }
 
             for (int i = 1; i <= 3; i++) {
@@ -93,7 +92,7 @@ int main(void)
 
                     if (check[ny][nx][d] == false) {
                         check[ny][nx][d] = true;
-                        q.push({ ny, nx, d });
+                        q.push({ny, nx, d});
                     }
                 }
             }
