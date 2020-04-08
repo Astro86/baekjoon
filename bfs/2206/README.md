@@ -1,3 +1,12 @@
+# 백준 2206 - 벽 부수고 이동하기
+
+![](2206.jpeg)
+
+## 채점 현황
+![](2206_score.png)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 #include <queue>
 using namespace std;
@@ -81,3 +90,4 @@ int main(void) {
 
     return 0;
 }
+```
