@@ -1,9 +1,12 @@
 # 백준 16397 - 탈출
 
-[16397 - 탈출](https://www.acmicpc.net/problem/16397)
+![](16397.jpeg)
 
-![](16397m.png)
+## 채점 현황
+![](16397_score.png)
 
+
+## 전체 소스 코드
 ```cpp
 #include <iostream>
 #include <queue>
@@ -16,58 +19,42 @@ int n, t, g;
 queue<pair<int, int>> q;
 bool check[99999];
 
-int maxMinus(int x)
-{
-    if (x < 10)
-    {
+int maxMinus(int x) {
+    if (x < 10) {
         return x - 1;
-    }
-    else if (x < 100)
-    {
+    } else if (x < 100) {
         return x - 10;
-    }
-    else if (x < 1000)
-    {
+    } else if (x < 1000) {
         return x - 100;
-    }
-    else if (x < 10000)
-    {
+    } else if (x < 10000) {
         return x - 1000;
-    }
-    else
-    {
+    } else {
         return x - 10000;
     }
 }
 
-int main(void)
-{
+int main(void) {
     cin >> n >> t >> g;
     q.push({n, 0});
     check[n] = true;
 
-    if (n == g)
-    {
+    if (n == g) {
         cout << 0 << '\n';
         return 0;
     }
 
-    while (!q.empty())
-    {
+    while (!q.empty()) {
         int cnt_value = q.front().first;
         int cnt_num = q.front().second;
         q.pop();
 
-        if (cnt_num == t)
-        {
+        if (cnt_num == t) {
             break;
         }
 
         int buttonA = cnt_value + 1;
-        if (0 <= buttonA && buttonA <= 99999 && !check[buttonA])
-        {
-            if (buttonA == g)
-            {
+        if (0 <= buttonA && buttonA <= 99999 && !check[buttonA]) {
+            if (buttonA == g) {
                 cout << cnt_num + 1 << '\n';
                 return 0;
             }
@@ -76,13 +63,10 @@ int main(void)
             q.push({buttonA, cnt_num + 1});
         }
         int buttonB = cnt_value * 2;
-        if (buttonB <= 99999)
-        {
+        if (buttonB <= 99999) {
             int buttonB_maxMinux = maxMinus(buttonB);
-            if (0 <= buttonB_maxMinux && !check[buttonB_maxMinux])
-            {
-                if (buttonB_maxMinux == g)
-                {
+            if (0 <= buttonB_maxMinux && !check[buttonB_maxMinux]) {
+                if (buttonB_maxMinux == g) {
                     cout << cnt_num + 1 << '\n';
                     return 0;
                 }
