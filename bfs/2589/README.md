@@ -1,3 +1,11 @@
+# 백준 2589 - 보물섬
+![](2589.jpeg)
+
+## 채점 현황
+![](2589_score.png)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 #include <queue>
 using namespace std;
@@ -64,3 +72,4 @@ int main(void) {
 
     return 0;
 }
+```
