@@ -1,3 +1,12 @@
+# 백준 1967 - 트리의 지름
+
+![](1967.jpeg)
+
+## 채점 현황
+![](1967_score.png)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 #include <queue>
 using namespace std;
@@ -52,3 +61,4 @@ int main(void) {
 
     cout << maxValue << '\n';
 }
+```
