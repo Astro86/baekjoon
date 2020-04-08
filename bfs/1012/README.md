@@ -1,9 +1,12 @@
 # 백준 1012 - 유기농 배추
 
-[1012 - 유기농 배추](https://www.acmicpc.net/problem/1012)
+![](1012.jpeg)
 
-![](1012m.png)
+## 채점 현황
+![](1012_score.png)
 
+
+## 전체 소스 코드
 ```cpp
 #include <iostream>
 #include <queue>
