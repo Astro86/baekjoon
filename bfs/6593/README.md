@@ -1,3 +1,13 @@
+# 백준 6593 - 상범 빌딩 
+
+![](6593.jpeg)
+
+## 채점 현황
+
+![](6593_score.png)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 #include <queue>
 using namespace std;
@@ -75,3 +85,4 @@ int main(void) {
 
     return 0;
 }
+```
