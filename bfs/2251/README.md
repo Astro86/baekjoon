@@ -1,3 +1,12 @@
+# 백준 2251 - 물통
+
+![](2251.jpeg)
+
+## 채점 현황
+![](2251_score.png)
+
+## 전체 소스 코드
+```cpp
 #include <algorithm>
 #include <iostream>
 #include <queue>
@@ -80,3 +89,4 @@ int main(void) {
 
     return 0;
 }
+```
