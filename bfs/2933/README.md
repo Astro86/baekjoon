@@ -1,5 +1,11 @@
-# 미네랄
+# 백준 2933 - 미네랄
 
+![](2933.jpeg)
+
+## 채점 현황
+![](2933_score.png)
+
+## 전체 소스 코드
 ```cpp
 #include <iostream>
 #include <queue>
