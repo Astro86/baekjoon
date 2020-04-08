@@ -7,12 +7,10 @@ int island;
 int year;
 int arr[303][303];
 bool check[303][303];
-int dx[4] = { 1, 0, -1, 0 };
-int dy[4] = { 0, 1, 0, -1 };
+int dx[4] = {1, 0, -1, 0};
+int dy[4] = {0, 1, 0, -1};
 
-void dfs(int y, int x, int iceNum)
-{
-
+void dfs(int y, int x, int iceNum) {
     if (iceNum == 0) {
         return;
     }
@@ -28,8 +26,7 @@ void dfs(int y, int x, int iceNum)
     }
 }
 
-int main(void)
-{
+int main(void) {
     cin >> n >> m;
 
     for (int i = 0; i < n; i++) {
