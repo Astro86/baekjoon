@@ -1,3 +1,13 @@
+# 백준 9205 - 맥주 마시면서 걸어가기
+
+![](9205.jpeg)
+
+## 채점 현황
+
+![](9205_score.png)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 #include <queue>
 #include <vector>
@@ -58,3 +68,4 @@ int main(void) {
     }
     return 0;
 }
+```

@@ -9,8 +9,8 @@ int houseX, houseY;
 int convenX[101];
 int convenY[101];
 int festiX, festiY;
-int dx[4] = { 50, -50, 0, 0 };
-int dy[4] = { 0, 0, 50, -50 };
+int dx[4] = {50, -50, 0, 0};
+int dy[4] = {0, 0, 50, -50};
 int minX, minY, maxX, maxY;
 
 struct point {
@@ -19,13 +19,11 @@ struct point {
     int beer;
 };
 
-int dis(int tempX, int tempY)
-{
+int dis(int tempX, int tempY) {
     return abs(houseX - tempX) + abs(houseY - tempY);
 }
 
-int main(void)
-{
+int main(void) {
     cin >> t;
 
     while (t--) {
@@ -56,7 +54,7 @@ int main(void)
         vector<bool> check(140000, false);
 
         queue<point> q;
-        q.push({ houseX, houseY, 20 });
+        q.push({houseX, houseY, 20});
         check[dis(houseX, houseY)] = true;
 
         bool isFail = true;
@@ -85,7 +83,7 @@ int main(void)
                 if (minX <= nx && nx <= maxX && minY <= ny && ny <= maxY) {
                     if (check[nx - minX][ny - minY] == false && beer > 0) {
                         check[nx - minX][ny - minY] = true;
-                        q.push({ nx, ny, beer - 1 });
+                        q.push({nx, ny, beer - 1});
                     }
                 }
             }
