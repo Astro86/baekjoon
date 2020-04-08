@@ -1,3 +1,12 @@
+# 백준 9372 - 상근이의 여행
+
+![](9372.jpeg)
+
+## 채점 현황
+![](9372_score.png)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 #include <queue>
 #include <vector>
@@ -37,3 +46,4 @@ int main(void) {
         // }
     }
 }
+```
