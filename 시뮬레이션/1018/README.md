@@ -1,3 +1,12 @@
+# 체스판 다시 칠하기
+
+![](1018.jpeg)
+
+## 채점 현황
+![](1018_score.png)
+
+## 전체 소스 코드
+```cpp
 #include <math.h>
 
 #include <iostream>
@@ -43,3 +52,4 @@ int main(void) {
     cout << ans << endl;
     return 0;
 }
+```
