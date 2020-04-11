@@ -1,0 +1,1 @@
+cout << nextKing.first << " " << nextKing.second << '\n';
