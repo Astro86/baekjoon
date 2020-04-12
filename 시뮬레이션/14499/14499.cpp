@@ -7,8 +7,7 @@ int map[22][22];
 int cube[4][3];
 vector<int> command;
 
-void moveUp()
-{
+void moveUp() {
     if (x - 1 >= 0) {
         x -= 1;
 
@@ -37,8 +36,7 @@ void moveUp()
     }
 }
 
-void moveDown()
-{
+void moveDown() {
     if (x + 1 < n) {
         x += 1;
 
@@ -68,8 +66,7 @@ void moveDown()
     }
 }
 
-void moveRight()
-{
+void moveRight() {
     if (y + 1 < m) {
         y += 1;
 
@@ -99,8 +96,7 @@ void moveRight()
     }
 }
 
-void moveLeft()
-{
+void moveLeft() {
     if (y - 1 >= 0) {
         y -= 1;
 
@@ -129,8 +125,7 @@ void moveLeft()
     }
 }
 
-void moveCube()
-{
+void moveCube() {
     int commandNum = command.size();
     for (int i = 0; i < commandNum; i++) {
         int cntCommand = command[i];
@@ -150,8 +145,7 @@ void moveCube()
     }
 }
 
-int main(void)
-{
+int main(void) {
     cin >> n >> m >> x >> y >> k;
     for (int i = 0; i < n; i++) {
         {
