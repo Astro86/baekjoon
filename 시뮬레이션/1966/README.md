@@ -1,3 +1,12 @@
+# 백준 1966 - 프린터 큐
+
+![](1966.jpeg)
+
+## 채점 현황
+![](1966_score.png)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 #include <queue>
 using namespace std;
@@ -54,3 +63,4 @@ int main(void) {
         }
     }
 }
+```
