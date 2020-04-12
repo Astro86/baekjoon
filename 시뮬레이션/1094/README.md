@@ -1,3 +1,12 @@
+# 백준 1094 - 막대기
+
+![](1094.jpeg)
+
+## 채점 현황
+![](1094_score.png)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -25,3 +34,4 @@ int main(void) {
     cout << num << '\n';
     return 0;
 }
+```
