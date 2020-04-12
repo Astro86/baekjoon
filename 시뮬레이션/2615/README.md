@@ -1,3 +1,12 @@
+# 백준 2615 - 오목
+
+![](2615.jpeg)
+
+## 채점 현황
+![](2615_score.png)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -116,3 +125,4 @@ int main(void) {
 
     return 0;
 }
+```
