@@ -5,8 +5,7 @@ using namespace std;
 string A, B;
 int minDiff = 51;
 
-int main(void)
-{
+int main(void) {
     cin >> A >> B;
 
     int ASize = A.size();
