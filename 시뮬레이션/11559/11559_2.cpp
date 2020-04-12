@@ -3,18 +3,16 @@
 using namespace std;
 
 char map[12][6];
-int dx[4] = { 1, 0, -1, 0 };
-int dy[4] = { 0, 1, 0, -1 };
+int dx[4] = {1, 0, -1, 0};
+int dy[4] = {0, 1, 0, -1};
 int totalCount = 0;
 bool isRemoved = false;
 
-void moveDown()
-{
+void moveDown() {
     for (int i = 10; i >= 0; i--) {
         for (int j = 0; j < 6; j++) {
             int cntLine = i;
             if (map[cntLine][j] != '.') {
-
                 while (map[cntLine + 1][j] == '.' && cntLine <= 10) {
                     map[cntLine + 1][j] = map[cntLine][j];
                     map[cntLine][j] = '.';
@@ -25,9 +23,7 @@ void moveDown()
     }
 }
 
-void explore(int i, int j, char color)
-{
-
+void explore(int i, int j, char color) {
     bool check[12][6];
     int num = 1;
 
@@ -40,8 +36,8 @@ void explore(int i, int j, char color)
 
     queue<pair<int, int>> q;
     queue<pair<int, int>> rm;
-    q.push({ i, j });
-    rm.push({ i, j });
+    q.push({i, j});
+    rm.push({i, j});
 
     while (!q.empty()) {
         int y = q.front().first;
@@ -56,8 +52,8 @@ void explore(int i, int j, char color)
                 if (map[ny][nx] == color && check[ny][nx] == false) {
                     num++;
                     check[ny][nx] = true;
-                    q.push({ ny, nx });
-                    rm.push({ ny, nx });
+                    q.push({ny, nx});
+                    rm.push({ny, nx});
                 }
             }
         }
@@ -76,8 +72,7 @@ void explore(int i, int j, char color)
     }
 }
 
-int main(void)
-{
+int main(void) {
     for (int i = 0; i < 12; i++) {
         for (int j = 0; j < 6; j++) {
             cin >> map[i][j];
