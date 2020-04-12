@@ -2,8 +2,12 @@
 
 [3190 - 뱀](https://www.acmicpc.net/problem/3190)
 
-![](3190m.png)
+![](3190.jpeg)
 
+## 채점 현황
+![](3190_score.png)
+
+## 전체 소스 코드
 ```cpp
 #include <iostream>
 #include <queue>
