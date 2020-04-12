@@ -1,18 +1,21 @@
 # 시뮬레이션
 
-| 문제    | 이름           | 링크                                    | 정리여부 | 비고  |
-| ----- | ------------ | ------------------------------------- | ---- | --- |
-| 1018  | 체스판 다시 칠하기   | https://www.acmicpc.net/problem/1018  |      |     |
-| 1094  | 막대기          | https://www.acmicpc.net/problem/1094  |      |     |
-| 1120  | 문자열          | https://www.acmicpc.net/problem/1120  |      |     |
-| 1966  | 프린터 큐        | https://www.acmicpc.net/problem/1966  |      |     |
-| 2164  | 카드2          | https://www.acmicpc.net/problem/2164  |      |     |
-| 2455  | 지능형 기차       | https://www.acmicpc.net/problem/2455  |      |     |
-| 2615  | 오목           | https://www.acmicpc.net/problem/2615  |      |     |
-| 3055  | 탈출           | https://www.acmicpc.net/problem/3055  |      |     |
-| 3190  | 뱀            | https://www.acmicpc.net/problem/3190  |      |     |
-| 5373  | 큐빙           | https://www.acmicpc.net/problem/5373  |      |     |
-| 11559 | Puyo Puyo    | https://www.acmicpc.net/problem/11559 |      |     |
-| 14499 | 주사위 굴리기      | https://www.acmicpc.net/problem/14499 |      |     |
-| 15662 | 톱니바퀴(2)      | https://www.acmicpc.net/problem/15662 |      |     |
-| 16985 | Maaaaaaaaaze | https://www.acmicpc.net/problem/16985 |      |     |
+| 문제    | 이름                                       | 틀린 횟수 | 정리여부  | 비고  |
+| ----- | ---------------------------------------- | :---: | :---: | --- |
+| 1018  | [체스판 다시 칠하기](1018/README.md)             |       |       |     |
+| 1094  | [막대기](1094/README.md)                    |       |       |     |
+| 1120  | [문자열](1120/README.md)                    |       |       |     |
+| 1966  | [프린터 큐](1966/README.md)                  |       |       |     |
+| 2164  | [카드2](2164/README.md)                    |       |       |     |
+| 2455  | [지능형 기차](2455/README.md)                 |       |       |     |
+| 2615  | [오목](2615/README.md)                     |       |       |     |
+| 3055  | [탈출](3055/README.md)                     |       |       |     |
+| 3190  | [뱀](3190/README.md)                      |       |       |     |
+| 3985  | [롤 케이크](3985/README.md)                  |       |       |     |
+| 5373  | [큐빙](5373/README.md)                     |       |       |     |
+| 11559 | [Puyo Puyo](11559/README.md)             |       |       |     |
+| 14499 | [주사위 굴리기](14499/README.md)               |       |       |     |
+| 15662 | [톱니바퀴(2)](15662/README.md)               |       |       |     |
+| 16985 | [Maaaaaaaaaze]                           |       |       |     |
+| 16988 | [Baaaaaaaaaduk2 (Easy)](16988/README.md) |       |       |     |
+| 17069 | [파이프 옮기기 2](17069/README.md)             |       |       |     |
