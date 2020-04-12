@@ -1,3 +1,12 @@
+# 백준 3055 - 탈출
+
+![](3055.jpeg)
+
+## 채점 현황
+![](3055_score.png)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 #include <queue>
 using namespace std;
@@ -93,3 +102,4 @@ int main(void) {
 
     return 0;
 }
+```

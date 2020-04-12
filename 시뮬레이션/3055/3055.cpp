@@ -8,11 +8,10 @@ bool check[51][51];
 queue<pair<int, int>> water;
 queue<pair<int, int>> q;
 
-int dx[4] = { 1, 0, -1, 0 };
-int dy[4] = { 0, 1, 0, -1 };
+int dx[4] = {1, 0, -1, 0};
+int dy[4] = {0, 1, 0, -1};
 
-void flood(int n)
-{
+void flood(int n) {
     int size = n;
 
     while (size--) {
@@ -27,15 +26,14 @@ void flood(int n)
             if (0 <= ny && ny < R && 0 <= nx && nx < C) {
                 if (map[ny][nx] == '.') {
                     map[ny][nx] = '*';
-                    water.push({ ny, nx });
+                    water.push({ny, nx});
                 }
             }
         }
     }
 }
 
-bool findD(int n)
-{
+bool findD(int n) {
     int size = n;
 
     while (size--) {
@@ -60,7 +58,7 @@ bool findD(int n)
                     }
                     if (isPass == true) {
                         check[ny][nx] = true;
-                        q.push({ ny, nx });
+                        q.push({ny, nx});
                     }
                 } else if (map[ny][nx] == 'D') {
                     return true;
@@ -72,8 +70,7 @@ bool findD(int n)
     return false;
 }
 
-int main(void)
-{
+int main(void) {
     cin >> R >> C;
 
     for (int i = 0; i < R; i++) {
@@ -82,11 +79,11 @@ int main(void)
 
             if (map[i][j] == 'S') {
                 check[i][j] = true;
-                q.push({ i, j });
+                q.push({i, j});
             }
 
             if (map[i][j] == '*') {
-                water.push({ i, j });
+                water.push({i, j});
             }
         }
     }
