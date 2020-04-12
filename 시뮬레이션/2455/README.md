@@ -1,3 +1,12 @@
+# 백준 2455 - 지능형 기차
+
+![](2455.jpeg)
+
+## 채점 현황
+![](2455_score.png)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -23,3 +32,4 @@ int main(void) {
     cout << maxNum << '\n';
     return 0;
 }
+```
