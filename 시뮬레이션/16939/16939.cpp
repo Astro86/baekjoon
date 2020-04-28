@@ -18,254 +18,50 @@ int blocks[6][8] = {
 };
 bool isPass = false;
 
-// 정면 왼쪽
-void moveLeftUpDown() {
+void moveCube(int dir) {
     int temp[8];
     for (int i = 0; i < 8; i++) {
-        int index = blocks[0][(i + 2) % 8];
+        int index = blocks[dir][(i + 2) % 8];
 
         temp[i] = cube[index];
     }
 
     for (int i = 0; i < 8; i++) {
-        int index = blocks[0][i];
-
-        cube[index] = temp[i];
-    }
-}
-// 정면 오른쪽
-void moveRightUpDown() {
-    int temp[8];
-    for (int i = 0; i < 8; i++) {
-        int index = blocks[1][(i + 2) % 8];
-
-        temp[i] = cube[index];
-    }
-
-    for (int i = 0; i < 8; i++) {
-        int index = blocks[1][i];
-
-        cube[index] = temp[i];
-    }
-}
-// 정면 첫번째
-void moveFirstRightLeft() {
-    int temp[8];
-    for (int i = 0; i < 8; i++) {
-        int index = blocks[2][(i + 2) % 8];
-
-        temp[i] = cube[index];
-    }
-
-    for (int i = 0; i < 8; i++) {
-        int index = blocks[2][i];
-
-        cube[index] = temp[i];
-    }
-}
-// 정면 두번째
-void moveSecondRightLeft() {
-    int temp[8];
-    for (int i = 0; i < 8; i++) {
-        int index = blocks[3][(i + 2) % 8];
-
-        temp[i] = cube[index];
-    }
-
-    for (int i = 0; i < 8; i++) {
-        int index = blocks[3][i];
-
-        cube[index] = temp[i];
-    }
-}
-// 측면 1
-void moveFirstUpDown() {
-    int temp[8];
-    for (int i = 0; i < 8; i++) {
-        int index = blocks[4][(i + 2) % 8];
-
-        temp[i] = cube[index];
-    }
-
-    for (int i = 0; i < 8; i++) {
-        int index = blocks[4][i];
-
-        cube[index] = temp[i];
-    }
-}
-// 측면 2
-void moveSecondUpDown() {
-    int temp[8];
-    for (int i = 0; i < 8; i++) {
-        int index = blocks[5][(i + 2) % 8];
-
-        temp[i] = cube[index];
-    }
-
-    for (int i = 0; i < 8; i++) {
-        int index = blocks[5][i];
+        int index = blocks[dir][i];
 
         cube[index] = temp[i];
     }
 }
 
 bool isAllSame() {
-    int color = cube[1];
-    for (int i = 1; i <= 4; i++) {
-        if (color != cube[i]) {
-            return false;
+    for (int i = 0; i < 6; i++) {
+        int start = (i * 4) + 1;
+
+        int color = cube[start];
+        for (int j = start; j < start + 4; j++) {
+            if (color != cube[j]) {
+                return false;
+            }
         }
     }
-
-    color = cube[5];
-    for (int i = 5; i <= 8; i++) {
-        if (color != cube[i]) {
-            return false;
-        }
-    }
-
-    color = cube[9];
-    for (int i = 9; i <= 12; i++) {
-        if (color != cube[i]) {
-            return false;
-        }
-    }
-
-    color = cube[13];
-    for (int i = 13; i <= 16; i++) {
-        if (color != cube[i]) {
-            return false;
-        }
-    }
-
-    color = cube[17];
-    for (int i = 17; i <= 20; i++) {
-        if (color != cube[i]) {
-            return false;
-        }
-    }
-
-    color = cube[21];
-    for (int i = 21; i <= 24; i++) {
-        if (color != cube[i]) {
-            return false;
-        }
-    }
-
-    isPass = true;
     return true;
 }
 
 int move() {
     // 정면 왼쪽 위
-    moveLeftUpDown();
-    if (isAllSame()) {
-        return 1;
+    for (int i = 0; i < 6; i++) {
+        moveCube(i);
+        if (isAllSame()) {
+            return 1;
+        }
+        for (int j = 0; j < 2; j++) {
+            moveCube(i);
+        }
+        if (isAllSame()) {
+            return 1;
+        }
+        moveCube(i);
     }
-    for (int i = 0; i < 3; i++) {
-        moveLeftUpDown();
-    }
-
-    // 정면 왼쪽 아래
-    for (int i = 0; i < 3; i++) {
-        moveLeftUpDown();
-    }
-
-    if (isAllSame()) {
-        return 1;
-    }
-    moveLeftUpDown();
-
-    // 정면 오른쪽 위
-    moveRightUpDown();
-    if (isAllSame()) {
-        return 1;
-    }
-    for (int i = 0; i < 3; i++) {
-        moveRightUpDown();
-    }
-
-    // 정면 오른쪽 아래
-    for (int i = 0; i < 3; i++) {
-        moveRightUpDown();
-    }
-    if (isAllSame()) {
-        return 1;
-    }
-    moveRightUpDown();
-
-    // 정면 첫번째 오른쪽
-    moveFirstRightLeft();
-    if (isAllSame()) {
-        return 1;
-    }
-    for (int i = 0; i < 3; i++) {
-        moveFirstRightLeft();
-    }
-
-    // 정면 첫번째 왼쪽
-    for (int i = 0; i < 3; i++) {
-        moveFirstRightLeft();
-    }
-    if (isAllSame()) {
-        return 1;
-    }
-    moveFirstRightLeft();
-
-    // 정면 두번째 오른쪽
-    moveSecondRightLeft();
-    if (isAllSame()) {
-        return 1;
-    }
-    for (int i = 0; i < 3; i++) {
-        moveSecondRightLeft();
-    }
-
-    // 정면 두번째 왼쪽
-    for (int i = 0; i < 3; i++) {
-        moveSecondRightLeft();
-    }
-    if (isAllSame()) {
-        return 1;
-    }
-    moveSecondRightLeft();
-
-    // 측면 첫번째 위
-    moveFirstUpDown();
-    if (isAllSame()) {
-        return 1;
-    }
-    for (int i = 0; i < 3; i++) {
-        moveFirstUpDown();
-    }
-
-    // 측면 첫번째 아래
-    for (int i = 0; i < 3; i++) {
-        moveFirstUpDown();
-    }
-    if (isAllSame()) {
-        return 1;
-    }
-    moveFirstUpDown();
-
-    // 측면 두번째 위
-    moveSecondUpDown();
-    if (isAllSame()) {
-        return 1;
-    }
-    for (int i = 0; i < 3; i++) {
-        moveSecondUpDown();
-    }
-
-    // 측면 두번째 아래
-    for (int i = 0; i < 3; i++) {
-        moveSecondUpDown();
-    }
-    if (isAllSame()) {
-        return 1;
-    }
-    moveSecondUpDown();
-
     return 0;
 }
 
