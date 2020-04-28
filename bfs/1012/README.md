@@ -3,10 +3,11 @@
 ![](1012.jpeg)
 
 ## 채점 현황
+
 ![](1012_score.png)
 
-
 ## 전체 소스 코드
+
 ```cpp
 #include <iostream>
 #include <queue>
