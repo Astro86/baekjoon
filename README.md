@@ -5,16 +5,23 @@
 [알고리즘 스터디](everyday.md)
 
 ## 자료구조
-- [vector](vector/)  
-- [stack](stack/)  
-- [queue](queue/)            
-- [map](map/)                
-- [set](set/) 
-- 트리     
-- 우선순위 큐     
-- [세그먼트 트리](세그먼트%20트리/)  
-- [BST(이진 탐색 트리)](BST/) 
-- [트라이](trie/)
+
+<table>
+    <tr align="center"> 
+        <td width=20% nowrap height="40"> <a href="vector/">vector</a> </td> 
+        <td width=20% nowrap height="40"> <a href="stack/">stack </td>
+        <td width=20% nowrap height="40"> <a href="queue/">queue </td> 
+        <td width=20% nowrap height="40"> <a href="set/">set </td>
+        <td width=20% nowrap height="40"> <a href="map/">map </td>
+    </tr>
+    <tr align="center"> 
+        <td width=20% nowrap height="40"> <a href="트리/">트리</a> </td> 
+        <td width=20% nowrap height="40"> <a href="우선순위%20큐/">우선순위 큐 </td>
+        <td width=20% nowrap height="40"> <a href="세그먼트%20트리/">세그먼트 트리 </td> 
+        <td width=20% nowrap height="40"> <a href="BST/">BST(이진 탐색 트리) </td>
+        <td width=20% nowrap height="40"> <a href="trie/">트라이 </td>
+    </tr>
+</table>
 
 ## 현재 푼 유형
 <table>
