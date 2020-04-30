@@ -35,7 +35,24 @@
         <td width=20% nowrap> 백트래킹 </td>
         <td width=20% nowrap> 백트래킹 </td>
     </tr>
+</table>
 
+<table>
+    <th> 그래프 </th>
+    <tr align="center"> 
+        <td width=20% nowrap> DFS </td> 
+        <td width=20% nowrap> BFS </td>
+        <td width=20% nowrap> 브루트포스 </td> 
+        <td width=20% nowrap> 백트래킹 </td>
+        <td width=20% nowrap> 시뮬레이션 </td>
+    </tr>
+    <tr align="center"> 
+        <td width=20% nowrap> 다익스트라 </td>
+        <td width=20% nowrap> 벨만포드 </td> 
+        <td width=20% nowrap> 플로이드 와샬 </td>
+        <td width=20% nowrap> 최소 스패닝 트리 </td>
+        <td width=20% nowrap> </td>
+    </tr>
 </table>
 
 - [입출력](입출력/)           
