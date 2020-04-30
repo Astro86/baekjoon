@@ -18,7 +18,32 @@
 
 ## 현재 푼 유형
 
-- [입출력](입출력/)            
+
+<table>
+    <caption></caption>
+    <colgroup>
+        <col width="150px">
+        <col width="150px">
+        <col width="150px">
+        <col width="150px">
+    </colgroup>
+    <th> 테이블 </th>
+    <tr align="center"> 
+        <td colspan="1" > 그리디 </td> 
+        <td colspan="1"> 다이나믹 프로그래밍 </td>
+        <td colspan="1"> 이분탐색 </td> 
+        <td colspan="1"> 최소 스패닝 트리 </td>
+    </tr>
+    <tr align="center"> 
+        <td colspan="1"> 구현 </td>
+        <td colspan="1"> 이분탐색 </td> 
+        <td colspan="1"> 최소 스패닝 트리 </td>
+        <td colspan="1"> 백트래킹 </td>
+    </tr>
+
+</table>
+
+- [입출력](입출력/)           
 - [구현](구현/)             
 - [정렬](정렬/)                        
 - [탐색](탐색/)            
