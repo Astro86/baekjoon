@@ -6,7 +6,7 @@
 
 ## 자료구조
 
-<table>
+<table width = 100%>
     <tr align="center"> 
         <td width=20% nowrap height="40"> <a href="vector/">vector</a> </td> 
         <td width=20% nowrap height="40"> <a href="stack/">stack </td>
@@ -24,7 +24,7 @@
 </table>
 
 ## 현재 푼 유형
-<table>
+<table width = 100%>
     <tr align="center"> 
         <td width=20% nowrap height="40"> <a href="입출력/">입출력</a> </td> 
         <td width=20% nowrap height="40"> <a href="구현/">구현 </td>
