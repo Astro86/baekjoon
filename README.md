@@ -22,18 +22,18 @@
 <table>
     <th> 테이블 </th>
     <tr align="center"> 
-        <td width=25% nowrap> 그리디 </td> 
-        <td width=25% nowrap> 다이나믹 프로그래밍 </td>
-        <td width=25% nowrap> 이분탐색 </td> 
-        <td width=25% nowrap> 최소 스패닝 트리 </td>
-        <td width=25% nowrap> 정렬 </td>
+        <td width=20% nowrap> 그리디 </td> 
+        <td width=20% nowrap> 다이나믹 프로그래밍 </td>
+        <td width=20% nowrap> 이분탐색 </td> 
+        <td width=20% nowrap> 최소 스패닝 트리 </td>
+        <td width=20% nowrap> 정렬 </td>
     </tr>
     <tr align="center"> 
-        <td width=25% nowrap> 구현 </td>
-        <td width=25% nowrap> 이분탐색 </td> 
-        <td width=25% nowrap> 최소 스패닝 트리 </td>
-        <td width=25% nowrap> 백트래킹 </td>
-        <td width=25% nowrap> 탐색 </td>
+        <td width=20% nowrap> 구현 </td>
+        <td width=20% nowrap> 이분탐색 </td> 
+        <td width=20% nowrap> 최소 스패닝 트리 </td>
+        <td width=20% nowrap> 백트래킹 </td>
+        <td width=20% nowrap> 백트래킹 </td>
     </tr>
 
 </table>
