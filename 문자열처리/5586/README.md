@@ -26,3 +26,67 @@ for i in range(len(str)-2):
 print(JOI_num)
 print(IOI_num)
 ```
+
+## cpp 코드
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+string s;
+
+int main(void) {
+    cin >> s;
+
+    int JOI_num = 0;
+    int IOI_num = 0;
+
+    for (int i = 0; i < s.size() - 2; i++) {
+        string temp = s.substr(i, 3);
+        if (temp == "JOI") {
+            JOI_num++;
+        }
+
+        if (temp == "IOI") {
+            IOI_num++;
+        }
+    }
+
+    cout << JOI_num << '\n';
+    cout << IOI_num << '\n';
+    return 0;
+}
+```
+
+## JAVA 코드
+```java
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String s = br.readLine();
+
+        int JOI_num = 0;
+        int IOI_num = 0;
+
+        for (int i = 0; i < s.length() - 2; i++) {
+            String subString = s.substring(i, i + 3);
+
+            if (subString.equals("JOI")) {
+                JOI_num++;
+            }
+
+            if (subString.equals("IOI")) {
+                IOI_num++;
+            }
+        }
+
+        System.out.println(JOI_num);
+        System.out.println(IOI_num);
+
+        br.close();
+    }
+}
+```
