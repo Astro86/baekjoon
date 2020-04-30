@@ -29,16 +29,16 @@
     </colgroup>
     <th> 테이블 </th>
     <tr align="center"> 
-        <td colspan="1" > 그리디 </td> 
-        <td colspan="1"> 다이나믹 프로그래밍 </td>
-        <td colspan="1"> 이분탐색 </td> 
-        <td colspan="1"> 최소 스패닝 트리 </td>
+        <td> 그리디 </td> 
+        <td> 다이나믹 프로그래밍 </td>
+        <td> 이분탐색 </td> 
+        <td> 최소 스패닝 트리 </td>
     </tr>
     <tr align="center"> 
-        <td colspan="1"> 구현 </td>
-        <td colspan="1"> 이분탐색 </td> 
-        <td colspan="1"> 최소 스패닝 트리 </td>
-        <td colspan="1"> 백트래킹 </td>
+        <td> 구현 </td>
+        <td> 이분탐색 </td> 
+        <td> 최소 스패닝 트리 </td>
+        <td> 백트래킹 </td>
     </tr>
 
 </table>
