@@ -39,6 +39,9 @@
         <td width=20% nowrap height="40"> <a href="다이나믹%20프로그래밍/"> 다이나믹 프로그래밍 </td>
         <td width=20% nowrap height="40"> <a href="그리디/"> 그리디 </td>
     </tr>
+</table>
+
+<table width = 100%>
     <th>그래프 탐색</th>
     <tr align="center"> 
         <td width=20% nowrap height="40"> <a href="dfs/">DFS</a> </td> 
@@ -47,6 +50,9 @@
         <td width=20% nowrap height="40"> <a href="백트래킹/">백트래킹 </td>
         <td width=20% nowrap height="40"> <a href="시뮬레이션/">시뮬레이션 </td>
     </tr>
+</table>
+
+<table width = 100%>
     <th>그래프 이론</th>
     <tr align="center"> 
         <td width=20% nowrap height="40"> <a href="다익스트라/">다익스트라 </td>
@@ -54,8 +60,7 @@
         <td width=20% nowrap height="40"> <a href="플로이드%20와샬/">플로이드 와샬 </td>
         <td width=20% nowrap height="40"> <a href="최소%20스패닝%20트리/">최소 스패닝 트리 </td>
         <td width=20% nowrap height="40"> </td>
-    </tr>
-    
+    </tr>    
 </table>
       
 
