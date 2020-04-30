@@ -20,18 +20,18 @@
 <table>
     <th> 그래프 </th>
     <tr align="center"> 
-        <td width=20% nowrap> <a href="dfs/">DFS</a> </td> 
-        <td width=20% nowrap> <a href="bfs/">BFS </td>
-        <td width=20% nowrap> <a href="브루트포스/">브루트포스 </td> 
-        <td width=20% nowrap> <a href="백트래킹/">백트래킹 </td>
-        <td width=20% nowrap> <a href="시뮬레이션/">시뮬레이션 </td>
+        <td width="150" nowrap> <a href="dfs/">DFS</a> </td> 
+        <td width="150" nowrap> <a href="bfs/">BFS </td>
+        <td width="150" nowrap> <a href="브루트포스/">브루트포스 </td> 
+        <td width="150" nowrap> <a href="백트래킹/">백트래킹 </td>
+        <td width="150" nowrap> <a href="시뮬레이션/">시뮬레이션 </td>
     </tr>
     <tr align="center"> 
-        <td width=20% nowrap> <a href="다익스트라/">다익스트라 </td>
-        <td width=20% nowrap> <a href="벨만포드/">벨만포드 </td> 
-        <td width=20% nowrap> <a href="플로이드%20와샬/">플로이드 와샬 </td>
-        <td width=20% nowrap> <a href="최소%20스패닝%20트리/">최소 스패닝 트리 </td>
-        <td width=20% nowrap> </td>
+        <td width="150" nowrap> <a href="다익스트라/">다익스트라 </td>
+        <td width="150" nowrap> <a href="벨만포드/">벨만포드 </td> 
+        <td width="150" nowrap> <a href="플로이드%20와샬/">플로이드 와샬 </td>
+        <td width="150" nowrap> <a href="최소%20스패닝%20트리/">최소 스패닝 트리 </td>
+        <td width="150" nowrap> </td>
     </tr>
 </table>
 
