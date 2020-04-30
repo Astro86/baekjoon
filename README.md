@@ -17,7 +17,7 @@
 - [트라이](trie/)
 
 ## 현재 푼 유형
-<table>
+<table border="2">
     <tr align="center"> 
         <td width=20% nowrap> <a href="입출력/">입출력</a> </td> 
         <td width=20% nowrap> <a href="구현/">구현 </td>
