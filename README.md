@@ -19,32 +19,32 @@
 ## 현재 푼 유형
 <table>
     <tr align="center"> 
-        <td width=20% nowrap height="30"> <a href="입출력/">입출력</a> </td> 
-        <td width=20% nowrap height="30"> <a href="구현/">구현 </td>
-        <td width=20% nowrap height="30"> <a href="정렬/">정렬 </td> 
-        <td width=20% nowrap height="30"> <a href="수학/">수학 </td>
-        <td width=20% nowrap height="30"> <a href=""> </td>
+        <td width=20% nowrap height="50"> <a href="입출력/">입출력</a> </td> 
+        <td width=20% nowrap height="50"> <a href="구현/">구현 </td>
+        <td width=20% nowrap height="50"> <a href="정렬/">정렬 </td> 
+        <td width=20% nowrap height="50"> <a href="수학/">수학 </td>
+        <td width=20% nowrap height="50"> <a href=""> </td>
     </tr>
     <tr align="center"> 
-        <td width=20% nowrap height="30"> <a href="탐색/">탐색</a> </td> 
-        <td width=20% nowrap height="30"> <a href="이분%20탐색">이분탐색 </td>
-        <td width=20% nowrap height="30"> <a href="문자열처리/">문자열 처리 </td> 
-        <td width=20% nowrap height="30"> <a href="다이나믹%20프로그래밍/"> 다이나믹 프로그래밍 </td>
-        <td width=20% nowrap height="30"> <a href="그리디/"> 그리디 </td>
+        <td width=20% nowrap height="50"> <a href="탐색/">탐색</a> </td> 
+        <td width=20% nowrap height="50"> <a href="이분%20탐색">이분탐색 </td>
+        <td width=20% nowrap height="50"> <a href="문자열처리/">문자열 처리 </td> 
+        <td width=20% nowrap height="50"> <a href="다이나믹%20프로그래밍/"> 다이나믹 프로그래밍 </td>
+        <td width=20% nowrap height="50"> <a href="그리디/"> 그리디 </td>
     </tr>
     <tr align="center"> 
-        <td width=20% nowrap height="30"> <a href="dfs/">DFS</a> </td> 
-        <td width=20% nowrap height="30"> <a href="bfs/">BFS </td>
-        <td width=20% nowrap height="30"> <a href="브루트포스/">브루트포스 </td> 
-        <td width=20% nowrap height="30"> <a href="백트래킹/">백트래킹 </td>
-        <td width=20% nowrap height="30"> <a href="시뮬레이션/">시뮬레이션 </td>
+        <td width=20% nowrap height="50"> <a href="dfs/">DFS</a> </td> 
+        <td width=20% nowrap height="50"> <a href="bfs/">BFS </td>
+        <td width=20% nowrap height="50"> <a href="브루트포스/">브루트포스 </td> 
+        <td width=20% nowrap height="50"> <a href="백트래킹/">백트래킹 </td>
+        <td width=20% nowrap height="50"> <a href="시뮬레이션/">시뮬레이션 </td>
     </tr>
     <tr align="center"> 
-        <td width=20% nowrap height="30"> <a href="다익스트라/">다익스트라 </td>
-        <td width=20% nowrap height="30"> <a href="벨만포드/">벨만포드 </td> 
-        <td width=20% nowrap height="30"> <a href="플로이드%20와샬/">플로이드 와샬 </td>
-        <td width=20% nowrap height="30"> <a href="최소%20스패닝%20트리/">최소 스패닝 트리 </td>
-        <td width=20% nowrap height="30"> </td>
+        <td width=20% nowrap height="50"> <a href="다익스트라/">다익스트라 </td>
+        <td width=20% nowrap height="50"> <a href="벨만포드/">벨만포드 </td> 
+        <td width=20% nowrap height="50"> <a href="플로이드%20와샬/">플로이드 와샬 </td>
+        <td width=20% nowrap height="50"> <a href="최소%20스패닝%20트리/">최소 스패닝 트리 </td>
+        <td width=20% nowrap height="50"> </td>
     </tr>
     
 </table>
