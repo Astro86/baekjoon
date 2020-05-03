@@ -29,3 +29,8 @@ int main(void) {
 ```python
 print(len(input()))
 ```
+
+## java 코드
+```java
+
+```
