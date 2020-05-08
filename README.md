@@ -19,7 +19,7 @@
         <td width="170px" nowrap height="40"> <a href="우선순위%20큐/">우선순위 큐 </td>
         <td width="170px" nowrap height="40"> <a href="세그먼트%20트리/">세그먼트 트리 </td> 
         <td width="170px" nowrap height="40"> <a href="BST/">BST(이진 탐색 트리) </td>
-        <td width="170px" nowrap height="40"> <a href="trie/">트라이 </td>
+        <td width="170px" nowrap height="40"> <a href="트라이/">트라이 </td>
     </tr>
 </table>
 
