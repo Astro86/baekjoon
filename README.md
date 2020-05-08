@@ -30,7 +30,7 @@
         <td width="170px" nowrap height="40"> <a href="구현/">구현 </td>
         <td width="170px" nowrap height="40"> <a href="정렬/">정렬 </td> 
         <td width="170px" nowrap height="40"> <a href="수학/">수학 </td>
-        <td width="170px" nowrap height="40"> <a href=""> </td>
+        <td width="170px" nowrap height="40"> <a href="비트마스크">비트마스크 </td>
     </tr>
     <tr align="center"> 
         <td width="170px" nowrap height="40"> <a href="탐색/">탐색</a> </td> 
