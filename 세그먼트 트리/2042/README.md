@@ -3,7 +3,7 @@
 ![](2042.jpeg)
 
 ## 전체 소스 코드
-```python
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
