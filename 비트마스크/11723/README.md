@@ -35,6 +35,7 @@ int main(void) {
         } else if (op == "check") {
             cin >> value;
 
+            // and 연산
             if (bit & (1 << value))
                 cout << 1 << '\n';
             else
@@ -43,6 +44,7 @@ int main(void) {
         } else if (op == "toggle") {
             cin >> value;
 
+            // xor 연산
             bit ^= (1 << value);
         } else if (op == "all") {
             bit = (1 << 21) - 1;
