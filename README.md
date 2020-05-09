@@ -27,17 +27,24 @@
 <table>
     <tr align="center"> 
         <td width="170px" nowrap height="40"> <a href="입출력/">입출력</a> </td> 
-        <td width="170px" nowrap height="40"> <a href="구현/">구현 </td>
-        <td width="170px" nowrap height="40"> <a href="정렬/">정렬 </td> 
-        <td width="170px" nowrap height="40"> <a href="수학/">수학 </td>
-        <td width="170px" nowrap height="40"> <a href="비트마스크">비트마스크 </td>
+        <td width="170px" nowrap height="40"> <a href="구현/">구현</td>
+        <td width="170px" nowrap height="40"> <a href="정렬/">정렬</td> 
+        <td width="170px" nowrap height="40"> <a href="수학/">수학</td>
+        <td width="170px" nowrap height="40"> <a href="비트마스크">비트마스크</td>
     </tr>
     <tr align="center"> 
         <td width="170px" nowrap height="40"> <a href="탐색/">탐색</a> </td> 
-        <td width="170px" nowrap height="40"> <a href="이분%20탐색">이분탐색 </td>
-        <td width="170px" nowrap height="40"> <a href="문자열처리/">문자열 처리 </td> 
-        <td width="170px" nowrap height="40"> <a href="다이나믹%20프로그래밍/"> 다이나믹 프로그래밍 </td>
+        <td width="170px" nowrap height="40"> <a href="이분%20탐색">이분탐색</td>
+        <td width="170px" nowrap height="40"> <a href="문자열처리/">문자열 처리</td> 
+        <td width="170px" nowrap height="40"> <a href="다이나믹%20프로그래밍/">다이나믹 프로그래밍</td>
         <td width="170px" nowrap height="40"> <a href="그리디/"> 그리디 </td>
+    </tr>
+    <tr align="center"> 
+        <td width="170px" nowrap height="40"> <a href="투포인터">투 포인터</a></td> 
+        <td width="170px" nowrap height="40"> <a href="슬라이딩%20윈도우/">슬라이딩 윈도우</td>
+        <td width="170px" nowrap height="40"> <a href="#"></td> 
+        <td width="170px" nowrap height="40"> <a href="#"></td>
+        <td width="170px" nowrap height="40"> <a href="#"></td>
     </tr>
 </table>
 
