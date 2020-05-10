@@ -5,8 +5,7 @@ int N;
 int arr[1100];
 int dp[1100][10];
 
-int main(void)
-{
+int main(void) {
     cin >> N;
 
     for (int i = 0; i < N; i++) {
