@@ -5,8 +5,7 @@ int n;
 int graph[10001];
 int dp[10001][3];
 
-int main(void)
-{
+int main(void) {
     cin >> n;
 
     for (int i = 0; i < n; i++) {
