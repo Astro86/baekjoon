@@ -5,15 +5,14 @@ int N;
 pair<int, int> consult[30];
 int pay[30];
 
-int main(void)
-{
+int main(void) {
     cin >> N;
 
     for (int i = 1; i <= N; i++) {
         int time, price;
         cin >> time >> price;
 
-        consult[i] = { time, price };
+        consult[i] = {time, price};
     }
 
     for (int i = 1; i <= N; i++) {
