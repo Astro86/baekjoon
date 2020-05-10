@@ -4,10 +4,8 @@ using namespace std;
 long long dp[99][2];
 int n;
 
-long long solution(int n, int m)
-{
-    if (n == 0 || dp[n][m] != 0)
-    {
+long long solution(int n, int m) {
+    if (n == 0 || dp[n][m] != 0) {
         return dp[n][m];
     }
     dp[n][0] = solution(n - 1, 0) + solution(n - 1, 1);
@@ -16,8 +14,7 @@ long long solution(int n, int m)
     return dp[n][m];
 }
 
-int main(void)
-{
+int main(void) {
     scanf("%d", &n);
     dp[0][0] = 0;
     dp[0][1] = 1;
