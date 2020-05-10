@@ -6,8 +6,7 @@ int n, k;
 int arr[110];
 int score[100001];
 
-int main(void)
-{
+int main(void) {
     cin >> n >> k;
 
     for (int i = 0; i < n; i++) {
