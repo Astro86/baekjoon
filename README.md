@@ -42,7 +42,7 @@
     <tr align="center"> 
         <td width="170px" nowrap height="40"> <a href="투포인터">투 포인터</a></td> 
         <td width="170px" nowrap height="40"> <a href="슬라이딩%20윈도우/">슬라이딩 윈도우</td>
-        <td width="170px" nowrap height="40"> <a href="#"></td> 
+        <td width="170px" nowrap height="40"> <a href="유니온%20파인드">유니온 파인드</td> 
         <td width="170px" nowrap height="40"> <a href="#"></td>
         <td width="170px" nowrap height="40"> <a href="#"></td>
     </tr>
