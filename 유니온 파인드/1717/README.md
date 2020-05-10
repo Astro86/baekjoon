@@ -66,18 +66,15 @@ using namespace std;
 int n, m;
 int parent[MAX_VALUE];
 
-int find(int a)
-{
+int find(int a) {
     if (parent[a] == a)
         return a;
-    else
-    {
+    else {
         return parent[a] = find(parent[a]);
     }
 }
 
-void merge(int a, int b)
-{
+void merge(int a, int b) {
     int set_a = find(a);
     int set_b = find(b);
 
@@ -87,22 +84,19 @@ void merge(int a, int b)
     parent[set_b] = set_a;
 }
 
-int main(void)
-{
+int main(void) {
     scanf("%d %d", &n, &m);
 
     for (int i = 0; i < n + 1; i++)
         parent[i] = i;
 
-    while (m--)
-    {
+    while (m--) {
         int o, a, b;
         scanf("%d %d %d", &o, &a, &b);
 
         if (o == 0)
             merge(a, b);
-        else if (o == 1)
-        {
+        else if (o == 1) {
             int set_a = find(a);
             int set_b = find(b);
 
