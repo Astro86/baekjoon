@@ -1,9 +1,10 @@
 # 백준 1976 - 여행가자
 
-[1976 - 여행가자](https://www.acmicpc.net/problem/1976)
+https://www.acmicpc.net/problem/1976
 
-![](1976m.png)
+![](1976.jpeg)
 
+## 전체 소스 코드
 ```cpp
 #include <iostream>
 #include <vector>
