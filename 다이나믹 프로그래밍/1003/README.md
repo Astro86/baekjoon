@@ -1,63 +1,52 @@
 # 백준 1003 - 피보나치 함수
 
-[1003 - 피보나치 함수](https://www.acmicpc.net/problem/1003)
-![](1003m.png)
+(https://www.acmicpc.net/problem/1003)
+![](1003.jpeg)
 
+## 전체 소스 코드
 ```cpp
 #include <iostream>
 #include <vector>
 using namespace std;
 
 vector<long long> v(41);
-int num_0[41];
-int num_1[41];
+pair<int, int> num[41];
 
 int T;
 
-int fibonacci(int n)
-{
-    if (v[n] != 0)
-    {
+int fibonacci(int n) {
+    if (v[n] != 0) {
         return v[n];
     }
 
-    if (n == 0)
-    {
+    if (n == 0) {
         return 0;
-    }
-    else if (n == 1)
-    {
+    } else if (n == 1) {
         return 1;
     }
 
     v[n] = fibonacci(n - 1) + fibonacci(n - 2);
-    num_0[n] = num_0[n - 1] + num_0[n - 2];
-    num_1[n] = num_1[n - 1] + num_1[n - 2];
+    num[n].first = num[n - 1].first + num[n - 2].first;
+    num[n].second = num[n - 1].second + num[n - 2].second;
     return v[n];
 }
 
-int main(void)
-{
+int main(void) {
     cin >> T;
 
-    while (T--)
-    {
-        for (int i = 0; i <= 40; i++)
-        {
-            num_0[i] = 0;
-            num_1[i] = 0;
+    while (T--) {
+        for (int i = 0; i <= 40; i++) {
+            num[i] = {0, 0};
             v[i] = 0;
         }
-        num_0[0] = 1;
-        num_0[1] = 0;
-        num_1[0] = 0;
-        num_1[1] = 1;
+        num[0] = {1, 0};
+        num[1] = {0, 1};
 
         int n;
         cin >> n;
         fibonacci(n);
 
-        cout << num_0[n] << " " << num_1[n] << '\n';
+        cout << num[n].first << " " << num[n].second << '\n';
     }
 
     return 0;

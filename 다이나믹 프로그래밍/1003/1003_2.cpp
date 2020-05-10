@@ -7,19 +7,14 @@ pair<int, int> num[41];
 
 int T;
 
-int fibonacci(int n)
-{
-    if (v[n] != 0)
-    {
+int fibonacci(int n) {
+    if (v[n] != 0) {
         return v[n];
     }
 
-    if (n == 0)
-    {
+    if (n == 0) {
         return 0;
-    }
-    else if (n == 1)
-    {
+    } else if (n == 1) {
         return 1;
     }
 
@@ -29,14 +24,11 @@ int fibonacci(int n)
     return v[n];
 }
 
-int main(void)
-{
+int main(void) {
     cin >> T;
 
-    while (T--)
-    {
-        for (int i = 0; i <= 40; i++)
-        {
+    while (T--) {
+        for (int i = 0; i <= 40; i++) {
             num[i] = {0, 0};
             v[i] = 0;
         }
