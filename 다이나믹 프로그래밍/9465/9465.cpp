@@ -3,8 +3,7 @@ using namespace std;
 
 int T;
 
-int main(void)
-{
+int main(void) {
     cin >> T;
 
     while (T--) {
