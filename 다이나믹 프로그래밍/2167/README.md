@@ -1,3 +1,9 @@
+# 백준 2167 - 2차원 배열의 합
+
+![](2167.jpeg)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -30,3 +36,4 @@ int main(void) {
 
     return 0;
 }
+```
