@@ -6,8 +6,7 @@ using namespace std;
 
 int n;
 
-int main(void)
-{
+int main(void) {
     cin >> n;
 
     int arr[MAX];
