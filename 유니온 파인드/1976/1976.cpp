@@ -9,15 +9,13 @@ int city[MAX_VALUE][MAX_VALUE];
 
 int parent[MAX_VALUE];
 
-int find(int a)
-{
+int find(int a) {
     if (parent[a] == a)
         return a;
     return parent[a] = find(parent[a]);
 }
 
-void merge(int a, int b)
-{
+void merge(int a, int b) {
     int set_a = find(a);
     int set_b = find(b);
 
@@ -26,8 +24,7 @@ void merge(int a, int b)
     parent[set_b] = set_a;
 }
 
-int main(void)
-{
+int main(void) {
     ios_base::sync_with_stdio(false);
     cin.tie(0);
     cin >> n >> m;
@@ -36,8 +33,7 @@ int main(void)
         parent[i] = i;
 
     for (int i = 1; i <= n; i++)
-        for (int j = 1; j <= n; j++)
-        {
+        for (int j = 1; j <= n; j++) {
             int temp;
             cin >> temp;
 
@@ -46,19 +42,16 @@ int main(void)
         }
 
     vector<int> v;
-    for (int i = 0; i < m; i++)
-    {
+    for (int i = 0; i < m; i++) {
         int temp;
         cin >> temp;
         v.push_back(temp);
     }
 
-    for (int i = 0; i < m - 1; i++)
-    {
+    for (int i = 0; i < m - 1; i++) {
         if (find(v[i]) == find(v[i + 1]))
             continue;
-        else
-        {
+        else {
             cout << "NO" << '\n';
             return 0;
         }
