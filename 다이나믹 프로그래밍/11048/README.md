@@ -1,3 +1,9 @@
+# 백준 11048 - 이동하기
+
+![](11048.jpeg)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -39,3 +45,4 @@ int main(void) {
 
     return 0;
 }
+```
