@@ -1,3 +1,9 @@
+# 백준 2352 - 반도체 설계
+
+![](2352.jpeg)
+
+## 전체 소스 코드
+```cpp
 #include <algorithm>
 #include <iostream>
 #include <vector>
@@ -30,3 +36,4 @@ int main(void) {
     cout << cache.size() << '\n';
     return 0;
 }
+```

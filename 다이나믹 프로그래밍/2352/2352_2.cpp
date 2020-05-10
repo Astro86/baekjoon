@@ -8,8 +8,7 @@ int n;
 int arr[MAX];
 int cache[MAX];
 
-int main(void)
-{
+int main(void) {
     cin >> n;
 
     for (int i = 1; i <= n; i++) {
@@ -19,7 +18,6 @@ int main(void)
     cache[1] = arr[1];
     int lastIndex = 1;
     for (int i = 2; i <= n; i++) {
-
         if (cache[lastIndex] < arr[i]) {
             lastIndex++;
             cache[lastIndex] = arr[i];
