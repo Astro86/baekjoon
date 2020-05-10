@@ -1,3 +1,9 @@
+# 백준 1699 - 제곱수의 합
+
+![](1699.jpeg)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -30,3 +36,4 @@ int main(void) {
     cout << dp[n] << endl;
     return 0;
 }
+```
