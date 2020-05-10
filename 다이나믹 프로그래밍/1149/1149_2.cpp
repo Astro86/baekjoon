@@ -5,8 +5,7 @@ int N;
 int cost[1001][3];
 int dp[1001][3];
 
-int main(void)
-{
+int main(void) {
     cin >> N;
 
     for (int i = 0; i < N; i++) {
