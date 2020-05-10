@@ -1,3 +1,9 @@
+# 백준 9095 - 1, 2, 3 더하기
+
+![](9095.jpeg)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -25,3 +31,4 @@ int main(void) {
 
     return 0;
 }
+```
