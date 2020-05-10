@@ -1,3 +1,9 @@
+# 백준 11055 - 가장 큰 증가하는 부분 수열
+
+![](11055.jpeg)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -34,3 +40,4 @@ int main(void) {
     cout << result << '\n';
     return 0;
 }
+```
