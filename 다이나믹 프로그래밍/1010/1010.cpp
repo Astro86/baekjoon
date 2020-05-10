@@ -4,8 +4,7 @@ using namespace std;
 int T, N, M;
 int arr[33][33];
 
-int main(void)
-{
+int main(void) {
     cin >> T;
 
     while (T--) {
