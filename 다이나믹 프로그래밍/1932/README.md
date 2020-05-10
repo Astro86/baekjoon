@@ -1,3 +1,9 @@
+# 백준 1932 - 정수 삼각형
+
+![](1932.jpeg)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -41,3 +47,4 @@ int main(void) {
     cout << result << '\n';
     return 0;
 }
+```
