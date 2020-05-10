@@ -5,8 +5,7 @@ int N;
 int arr[10001];
 int money[10001];
 
-int main(void)
-{
+int main(void) {
     cin >> N;
 
     for (int i = 1; i <= N; i++) {
