@@ -1,3 +1,9 @@
+# 백준 11051 - 이항계수 2
+
+![](11051.jpeg)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -22,3 +28,4 @@ int main(void) {
 
     return 0;
 }
+```
