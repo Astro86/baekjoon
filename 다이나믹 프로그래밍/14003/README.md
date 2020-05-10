@@ -1,3 +1,9 @@
+# 백준 14003 - 가장 긴 증가하는 부분 수열 5
+
+![](14003.jpeg)
+
+## 전체 소스 코드
+```cpp
 #include <algorithm>
 #include <iostream>
 #include <stack>
@@ -60,3 +66,4 @@ int main(void) {
 
     return 0;
 }
+```
