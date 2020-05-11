@@ -44,51 +44,49 @@ void dfs(int y, int x, int cnt)
 
 ```cpp
 #include <iostream>
-#include <algorithm>
 using namespace std;
 
-int dy[4] = {1, -1, 0, 0};
-int dx[4] = {0, 0, 1, -1};
+int R, C;
+char map[22][22];
+bool check[26];
+int dx[4] = {1, 0, -1, 0};
+int dy[4] = {0, 1, 0, -1};
+int maxNum;
 
-int r, c;
-int ans = 0;
-char board[20][20];
-int alphabet[26];
+void dfs(int y, int x, int num) {
+    if (maxNum < num) {
+        maxNum = num;
+    }
 
-void dfs(int y, int x, int cnt)
-{
-    ans = max(ans, cnt);
-
-    for (int i = 0; i < 4; i++)
-    {
+    for (int i = 0; i < 4; i++) {
         int ny = y + dy[i];
         int nx = x + dx[i];
 
-        if (ny < 0 || ny >= r || nx < 0 || nx >= c)
-            continue;
+        if (0 <= ny && ny < R && 0 <= nx && nx < C) {
+            char nextColor = map[ny][nx];
 
-        int k = (int)board[ny][nx] - 'A';
-        if (alphabet[k])
-            continue;
-
-        alphabet[k]++;
-        dfs(ny, nx, cnt + 1);
-        alphabet[k]--;
+            if (check[nextColor - 'A'] == false) {
+                check[nextColor - 'A'] = true;
+                dfs(ny, nx, num + 1);
+                check[nextColor - 'A'] = false;
+            }
+        }
     }
 }
 
-int main(void)
-{
-    cin >> r >> c;
+int main(void) {
+    cin >> R >> C;
 
-    for (int i = 0; i < r; i++)
-        for (int j = 0; j < c; j++)
-            cin >> board[i][j];
+    for (int i = 0; i < R; i++) {
+        for (int j = 0; j < C; j++) {
+            cin >> map[i][j];
+        }
+    }
 
-    alphabet[(int)board[0][0] - 'A'] = 1;
+    check[map[0][0] - 'A'] = true;
     dfs(0, 0, 1);
 
-    cout << ans << '\n';
+    cout << maxNum << endl;
     return 0;
 }
 ```
