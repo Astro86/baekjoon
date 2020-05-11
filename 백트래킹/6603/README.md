@@ -2,8 +2,10 @@
 
 [6603 - 로또](https://www.acmicpc.net/problem/6603)
 
-![](6603m.png)
+![](6603.jpeg)
 
+
+## 전체 소스 코드
 ```cpp
 #include <iostream>
 using namespace std;
