@@ -1,6 +1,6 @@
 # 백준 9663 N-Queen
 
-[N-Queen](https://www.acmicpc.net/problem/9663)
+https://www.acmicpc.net/problem/9663
 
 ![](9663.jpeg)
 
