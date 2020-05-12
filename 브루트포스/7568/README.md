@@ -1,9 +1,10 @@
 # 백준 7568 - 덩치
 
-[7568 - 덩치](https://www.acmicpc.net/problem/7568)
+https://www.acmicpc.net/problem/7568
 
-![](7568m.png)
+![](7568.jpeg)
 
+## 전체 소스 코드
 ```cpp
 #include <iostream>
 #include <vector>
@@ -13,28 +14,21 @@ vector<pair<int, int>> wh_list;
 vector<int> score;
 int n;
 
-int main(void)
-{
+int main(void) {
     scanf("%d", &n);
     wh_list = vector<pair<int, int>>(n, make_pair(0, 0));
     score = vector<int>(n, 1);
 
-    for (int i = 0; i < n; i++)
-    {
+    for (int i = 0; i < n; i++) {
         scanf("%d %d", &wh_list[i].first, &wh_list[i].second);
     }
-
-    for (int i = 0; i < n; i++)
-    {
-        for (int j = 0; j < n; j++)
-        {
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
             if (wh_list[i].first < wh_list[j].first && wh_list[i].second < wh_list[j].second)
                 score[i]++;
         }
     }
-
-    for (int i = 0; i < n; i++)
-    {
+    for (int i = 0; i < n; i++) {
         printf("%d ", score[i]);
     }
     return 0;
