@@ -1,3 +1,13 @@
+# 백준 15683 - 구슬 탈출 4
+
+![](15683.jpeg)
+
+## 체점 현황
+
+![](15683_score.png)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -247,3 +257,4 @@ int main(void) {
     cout << minValue << '\n';
     return 0;
 }
+```
