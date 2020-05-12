@@ -1,3 +1,9 @@
+# 백준 1051 - 숫자 직사각형
+
+![](1051.jpeg)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -50,3 +56,4 @@ int main(void) {
     cout << maxValue << '\n';
     return 0;
 }
+```
