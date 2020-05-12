@@ -1,3 +1,9 @@
+# 백준 17127 - 벚꽃이 정보섬에 피어난 이유
+
+![](17127.jpeg)
+
+## 전체 소스 코드
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 int n;
@@ -28,3 +34,4 @@ int main(void) {
 
     cout << maxValue << '\n';
 }
+```
