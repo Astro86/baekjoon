@@ -1,3 +1,9 @@
+# 백준 1065 - 한수
+
+![](1065.jpeg)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -36,3 +42,4 @@ int main(void) {
     cout << num << '\n';
     return 0;
 }
+```
