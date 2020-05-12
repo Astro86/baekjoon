@@ -1,3 +1,9 @@
+# 백준 2309 - 일곱 난쟁이
+
+![](2309.jpeg)
+
+## 전체 소스 코드
+```cpp
 #include <algorithm>
 #include <iostream>
 #include <vector>
@@ -40,3 +46,4 @@ int main(void) {
 
     return 0;
 }
+```
