@@ -1,3 +1,9 @@
+# 백준 12783 - 가장 긴 증가하는 부분 수열 3
+
+![](12738.jpeg)
+
+## 전체 소스 코드
+```cpp
 #include <algorithm>
 #include <iostream>
 using namespace std;
@@ -33,3 +39,4 @@ int main(void) {
     cout << length << '\n';
     return 0;
 }
+```
