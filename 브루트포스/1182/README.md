@@ -1,3 +1,9 @@
+# 백준 1182 - 부분 수열의 합
+
+![](1182.jpeg)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -25,3 +31,4 @@ int main(void) {
 
     cout << num << '\n';
 }
+```
