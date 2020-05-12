@@ -16,11 +16,10 @@ using namespace std;
 int N, M;
 int map[10][10];
 int maxArea;
-int dx[4] = { 1, 0, -1, 0 };
-int dy[4] = { 0, -1, 0, 1 };
+int dx[4] = {1, 0, -1, 0};
+int dy[4] = {0, -1, 0, 1};
 
-void spreadVirus()
-{
+void spreadVirus() {
     int copyMap[10][10];
     int area = 0;
     queue<pair<int, int>> q;
@@ -29,7 +28,7 @@ void spreadVirus()
         for (int j = 0; j < M; j++) {
             copyMap[i][j] = map[i][j];
             if (copyMap[i][j] == 2) {
-                q.push({ i, j });
+                q.push({i, j});
             }
         }
     }
@@ -46,7 +45,7 @@ void spreadVirus()
             if (0 <= ny && ny < N && 0 <= nx && nx < M) {
                 if (copyMap[ny][nx] == 0) {
                     copyMap[ny][nx] = 2;
-                    q.push({ ny, nx });
+                    q.push({ny, nx});
                 }
             }
         }
@@ -65,8 +64,7 @@ void spreadVirus()
     }
 }
 
-void makeWall(int level)
-{
+void makeWall(int level) {
     if (level == 3) {
         spreadVirus();
         return;
@@ -83,8 +81,7 @@ void makeWall(int level)
     }
 }
 
-int main(void)
-{
+int main(void) {
     cin >> N >> M;
 
     for (int i = 0; i < N; i++) {
