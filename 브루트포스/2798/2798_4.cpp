@@ -1,6 +1,7 @@
-#include <iostream>
-#include <algorithm>
 #include <math.h>
+
+#include <algorithm>
+#include <iostream>
 using namespace std;
 
 // 첫째 줄에 카드의 개수 N(3 ≤ N ≤ 100)과 M(10 ≤ M ≤ 300,000)이 주어진다.
@@ -14,34 +15,27 @@ int card[101];
 
 int result;
 
-void choiceCard(int start, int sum, int level)
-{
-    if (sum > M)
-    {
+void choiceCard(int start, int sum, int level) {
+    if (sum > M) {
         return;
     }
 
-    if (level == 3)
-    {
-        if (sum > result)
-        {
+    if (level == 3) {
+        if (sum > result) {
             result = sum;
         }
         return;
     }
 
-    for (int i = start; i < N; i++)
-    {
+    for (int i = start; i < N; i++) {
         choiceCard(i + 1, sum + card[i], level + 1);
     }
 }
 
-int main(void)
-{
+int main(void) {
     cin >> N >> M;
 
-    for (int i = 0; i < N; i++)
-    {
+    for (int i = 0; i < N; i++) {
         cin >> card[i];
     }
 

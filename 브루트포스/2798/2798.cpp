@@ -6,13 +6,11 @@ int n, m;
 vector<int> v;
 int max_sum;
 
-void find_max(int count, int index, int sum)
-{
+void find_max(int count, int index, int sum) {
     if (sum > m)
         return;
 
-    if (count == 3)
-    {
+    if (count == 3) {
         if (max_sum < sum)
             max_sum = sum;
         return;
@@ -25,13 +23,11 @@ void find_max(int count, int index, int sum)
     find_max(count, index + 1, sum);
 }
 
-int main(void)
-{
+int main(void) {
     scanf("%d %d", &n, &m);
     v = vector<int>(n, 0);
 
-    for (int i = 0; i < n; i++)
-    {
+    for (int i = 0; i < n; i++) {
         scanf("%d", &v[i]);
     }
 

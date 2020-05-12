@@ -2,8 +2,7 @@
 
 [2798 - 블랙잭](https://www.acmicpc.net/problem/2798)
 
-![](2798m.png)
-<br>
+![](2798.jpeg)
 
 ## 2798
 
@@ -34,8 +33,7 @@ void find_max(int count, int index, int sum)
 카드는 2개의 상태를 가질 수 있다. `카드를 선택한 경우`와 `카드를 선택하지 않은 경우`  
 현재 카드를 선택한 경우와 현재 카드를 선택하지 않은 경우 두가지 경우로 나누어서 재귀 함수를 호출 하였다. 경우의 수를 다 따져가며 완전탐색을 하게 된다.
 
-<br>
-
+## 전체 소스 코드
 ```cpp
 #include <iostream>
 #include <vector>
@@ -81,9 +79,7 @@ int main(void)
 }
 ```
 
-<br>
-
-## 2798_2
+## 전체 소스 코드 2
 
 ```cpp
 void blackJack(int start_index, int sum, int depth)
@@ -111,7 +107,6 @@ void blackJack(int start_index, int sum, int depth)
 `DFS`를 이용하여 문제를 해결한 두번째 방법
 가지고 있는 카드를 한번에 고려하는 상황으로 알고리즘을 짯다.
 
-<br>
 
 ```cpp
 #include <iostream>
@@ -159,9 +154,7 @@ int main(void)
 }
 ```
 
-<br>
-
-## 2798_3
+## 전체 소스 코드 3
 
 ```cpp
 void blackJack()
@@ -199,7 +192,6 @@ void blackJack()
 
 `BFS`를 이용하여 문제를 해결
 
-<br>
 
 ```cpp
 #include <iostream>
