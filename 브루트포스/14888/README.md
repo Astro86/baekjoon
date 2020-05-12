@@ -1,3 +1,9 @@
+# 백준 14888 - 연산자 끼워넣기
+
+![](14888.jpeg)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 #include <string>
 #include <vector>
@@ -72,3 +78,4 @@ int main(void) {
 
     return 0;
 }
+```
