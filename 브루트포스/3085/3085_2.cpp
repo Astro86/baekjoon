@@ -5,8 +5,7 @@ int N;
 char board[55][55];
 int maxValue = 1;
 
-int findCandy(int y, int x, char color)
-{
+int findCandy(int y, int x, char color) {
     int garo = 0;
     int sero = 0;
     int maxNum = 1;
@@ -43,8 +42,7 @@ int findCandy(int y, int x, char color)
     return maxNum;
 }
 
-void changeDown(int y, int x)
-{
+void changeDown(int y, int x) {
     int ny = y + 1;
     if (ny >= N) {
         return;
@@ -62,8 +60,7 @@ void changeDown(int y, int x)
     swap(board[y][x], board[ny][x]);
 }
 
-void changeRight(int y, int x)
-{
+void changeRight(int y, int x) {
     int nx = x + 1;
 
     if (nx >= N) {
@@ -89,14 +86,12 @@ void changeRight(int y, int x)
     swap(board[y][x], board[y][nx]);
 }
 
-void changeCandy(int y, int x)
-{
+void changeCandy(int y, int x) {
     changeDown(y, x);
     changeRight(y, x);
 }
 
-int main(void)
-{
+int main(void) {
     cin >> N;
 
     for (int i = 0; i < N; i++) {

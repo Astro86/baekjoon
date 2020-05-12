@@ -1,3 +1,10 @@
+# 백준 3085 - 사탕 게임
+
+![](3085.jpeg)
+
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -6,47 +13,9 @@ char board[55][55];
 int maxValue = 1;
 
 int findCandy(int y, int x, char color) {
-    int num = 0;
-    int maxNum = 1;
-    for (int i = x; i >= 0; i--) {
-        if (board[y][i] == color)
-            num++;
-        else {
-            break;
-        }
-    }
-    for (int i = x + 1; i < N; i++) {
-        if (board[y][i] == color) {
-            num++;
-        } else {
-            break;
-        }
-    }
-    maxNum = max(maxNum, num);
-
-    num = 0;
-    for (int i = y; i >= 0; i--) {
-        if (board[i][x] == color) {
-            num++;
-        } else {
-            break;
-        }
-    }
-    for (int i = y + 1; i < N; i++) {
-        if (board[i][x] == color) {
-            num++;
-        } else {
-            break;
-        }
-    }
-    maxNum = max(maxNum, num);
-
-    return maxNum;
-}
-
-void findCandy() {
     int garo = 0;
     int sero = 0;
+    int maxNum = 1;
 
     for (int i = 0; i < N; i++) {
         int num = 1;
@@ -74,8 +43,10 @@ void findCandy() {
         sero = max(sero, num);
     }
 
-    maxValue = max(maxValue, garo);
-    maxValue = max(maxValue, sero);
+    maxNum = max(maxNum, garo);
+    maxNum = max(maxNum, sero);
+
+    return maxNum;
 }
 
 void changeDown(int y, int x) {
@@ -136,8 +107,6 @@ int main(void) {
         }
     }
 
-    findCandy();
-
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++) {
             changeCandy(i, j);
@@ -147,3 +116,4 @@ int main(void) {
     cout << maxValue << '\n';
     return 0;
 }
+```
