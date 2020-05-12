@@ -1,3 +1,9 @@
+# 백준 12100 - 2048(easy)
+
+![](12100.jpeg)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -251,3 +257,4 @@ int main(void) {
     cout << maxValue << endl;
     return 0;
 }
+```
