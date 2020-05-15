@@ -1,0 +1,1 @@
+            cout << *(left_iter--) << endl;
