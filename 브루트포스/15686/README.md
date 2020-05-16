@@ -1,3 +1,9 @@
+# 백준 15686 - 치킨 배달
+
+![](15686.png)
+
+## 전체 소스 코드
+```cpp
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -73,3 +79,4 @@ int main(void) {
     cout << totalDist << '\n';
     return 0;
 }
+```
