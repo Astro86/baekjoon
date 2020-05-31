@@ -51,8 +51,8 @@
 <table>
     <th>그래프 탐색</th>
     <tr align="center"> 
-        <td width="170px" nowrap height="40"> <a href="dfs/README.md">DFS</a> </td> 
-        <td width="170px" nowrap height="40"> <a href="bfs/README.md">BFS </td>
+        <td width="170px" nowrap height="40"> <a href="DFS/README.md">DFS</a> </td> 
+        <td width="170px" nowrap height="40"> <a href="BFS/README.md">BFS </td>
         <td width="170px" nowrap height="40"> <a href="브루트포스/README.md">브루트포스 </td> 
         <td width="170px" nowrap height="40"> <a href="백트래킹/README.md">백트래킹 </td>
         <td width="170px" nowrap height="40"> <a href="시뮬레이션/README.md">시뮬레이션 </td>
