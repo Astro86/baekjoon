@@ -1,102 +1,182 @@
 # 백준 1012 - 유기농 배추
 
-![](1012.jpeg)
+## 링크
+
+https://www.acmicpc.net/problem/1012
 
 ## 채점 현황
 
 ![](1012_score.png)
 
-## 전체 소스 코드
+## 문제 풀이
+1. field를 탐색하면서 배추가 심어져 있는 위치를 찾는다.
+2. 배추가 심어져 있는 곳을 찾았다면 이전에 탐색을 했는지 확인한다.
+   1. 탐색한 적이 없다면 다음으로 넘어간다.
+   2. 탐색한 적이 있다면 1로 돌아간다.
+3. 배추가 심어져 있는 주변에 다른 배추들이 있는지 탐색한다.
+
+> 탐색횟수가 배추 흰 지렁이의 갯수가 된다.
+
+## BFS를 이용한 코드
 
 ```cpp
-#include <iostream>
-#include <queue>
+#include <bits/stdc++.h>
 using namespace std;
 
-// 테스트 케이스 개수
-int T;
-// 배추밭의 가로, 세로, 개수
-int M, N, K;
-int arr[55][55];
-bool checked[55][55];
-queue<pair<int, int>> q;
-// 방향
-int dx[4] = {0, 0, 1, -1};
-int dy[4] = {1, -1, 0, 0};
-// 지렁이 개수
-int num;
+int dx[4] = {1, -1, 0, 0};
+int dy[4] = {0, 0, 1, -1};
 
-void bfs()
-{
-    num++;
-    while (!q.empty())
-    {
-        pair<int, int> temp = q.front();
+int field[55][55];
+bool check[55][55];
+
+int width, height;
+int test_case;
+int num_of_cabbage;
+int num_of_warm;
+
+void init() {
+    for (int i = 0; i < 55; i++) {
+        for (int j = 0; j < 55; j++) {
+            field[i][j] = 0;
+            check[i][j] = false;
+        }
+    }
+    num_of_warm = 0;
+}
+
+void bfs(int y, int x) {
+    num_of_warm++;
+    check[y][x] = true;
+    queue<pair<int, int>> q;
+    q.push({y, x});
+
+    while (!q.empty()) {
+        int cnt_y = q.front().first;
+        int cnt_x = q.front().second;
         q.pop();
-        int y = temp.first;
-        int x = temp.second;
 
-        for (int i = 0; i < 4; i++)
-        {
-            int next_y = y + dy[i];
-            int next_x = x + dx[i];
+        for (int i = 0; i < 4; i++) {
+            int ny = cnt_y + dy[i];
+            int nx = cnt_x + dx[i];
 
-            // 좌표 유효성 검사
-            if (0 <= next_y && next_y < N && 0 <= next_x && next_x < M)
-            {
-                // 방문가능여부 검사
-                if (arr[next_y][next_x] == 1 && checked[next_y][next_x] == false)
-                {
-                    checked[next_y][next_x] = true;
-                    q.push(make_pair(next_y, next_x));
-                }
+            if (0 > ny || ny >= height || 0 > nx || nx >= width) {
+                continue;
             }
+
+            if (check[ny][nx] == true) {
+                continue;
+            }
+
+            if (field[ny][nx] == 0) {
+                continue;
+            }
+
+            check[ny][nx] = true;
+            q.push({ny, nx});
         }
     }
 }
 
-int main(void)
-{
-    scanf("%d", &T);
+int main(void) {
+    cin >> test_case;
 
-    while (T--)
-    {
-        scanf("%d %d %d", &M, &N, &K);
-        num = 0;
+    while (test_case--) {
+        cin >> width >> height >> num_of_cabbage;
+        init();
 
-        for (int i = 0; i < K; i++)
-        {
+        for (int i = 0; i < num_of_cabbage; i++) {
             int x, y;
-            scanf("%d %d", &x, &y);
+            cin >> x >> y;
 
-            arr[y][x] = 1;
+            field[y][x] = 1;
         }
 
-        for (int i = 0; i < N; i++)
-        {
-            for (int j = 0; j < M; j++)
-            {
-                if (arr[i][j] == 1 && checked[i][j] == false)
-                {
-                    checked[i][j] = true;
-                    q.push(make_pair(i, j));
-                    bfs();
+        for (int i = 0; i < height; i++) {
+            for (int j = 0; j < width; j++) {
+                if (field[i][j] == 1 && check[i][j] == false) {
+                    bfs(i, j);
                 }
             }
         }
-        printf("%d\n", num);
 
-        // 한번 썻던거 모두 0으로 다시 초기화
-        for (int i = 0; i < N; i++)
-        {
-            for (int j = 0; j < M; j++)
-            {
-                arr[i][j] = 0;
-                checked[i][j] = false;
-            }
+        cout << num_of_warm << '\n';
+    }
+    return 0;
+}
+```
+
+## DFS를 이용한 코드
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int field[55][55];
+bool check[55][55];
+int test_case, width, height;
+int num_of_cabbage;
+int num_of_warm;
+
+int dx[4] = {1, -1, 0, 0};
+int dy[4] = {0, 0, 1, -1};
+
+void init() {
+    for (int i = 0; i < 55; i++) {
+        for (int j = 0; j < 55; j++) {
+            field[i][j] = 0;
+            check[i][j] = false;
         }
     }
+    num_of_warm = 0;
+}
 
+void dfs(int y, int x) {
+    check[y][x] = true;
+
+    for (int i = 0; i < 4; i++) {
+        int ny = y + dy[i];
+        int nx = x + dx[i];
+
+        if (0 > ny || ny >= height || 0 > nx || nx >= width) {
+            continue;
+        }
+
+        if (check[ny][nx] == true) {
+            continue;
+        }
+
+        if (field[ny][nx] == 0) {
+            continue;
+        }
+
+        dfs(ny, nx);
+    }
+}
+
+int main(void) {
+    cin >> test_case;
+
+    while (test_case--) {
+        cin >> width >> height >> num_of_cabbage;
+        init();
+
+        for (int i = 0; i < num_of_cabbage; i++) {
+            int x, y;
+            cin >> x >> y;
+
+            field[y][x] = true;
+        }
+
+        for (int i = 0; i < height; i++) {
+            for (int j = 0; j < width; j++) {
+                if (field[i][j] == 1 && check[i][j] == false) {
+                    num_of_warm++;
+                    dfs(i, j);
+                }
+            }
+        }
+        cout << num_of_warm << '\n';
+    }
     return 0;
 }
 ```
