@@ -1,25 +1,3 @@
-# 백준 1600 - 말이 되고픈 원숭이
-
-## 링크
-
-https://www.acmicpc.net/problem/1600
-
-## 체점 현황
-![](1600_score.png)
-
-## 문제 풀이
-1. 말처럼 뛸 수 있는 횟수(k), width, height를 입력 받는다.
-2. field에 대한 정보를 입력 받는다.
-3. (0, 0)에서 시작해 (width-1, height-1)까지 갈 수 있는 최소 횟수를 탐색한다.
-   1. 원숭이가 움직일 수 있는 방법은 두가지가 존재한다.
-   2. 말처럼 뛸 수 있는 방법(k내의 횟수에서)
-   3. 상하좌우로 움직일 수 있는 방법
-   4. 말이 (width-1, height-1)에 도착하면 그 횟수를 반환한다. 만약 도착하지 못할 경우 -1을 반환한다.
-4. 말이 움직인 횟수를 출력해준다.
-
-
-## 전체 소스 코드
-```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -103,4 +81,3 @@ int main(void) {
     cout << minValueOfMove << '\n';
     return 0;
 }
-```
